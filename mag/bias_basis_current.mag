@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1715012390
+timestamp 1715022476
 << dnwell >>
 rect -179 333 4372 6945
 << nwell >>
@@ -12,6 +12,9 @@ rect -259 539 27 4863
 rect 4086 4685 4452 6739
 rect 4166 539 4452 4685
 rect -259 253 4452 539
+<< psubdiff >>
+rect 4486 7006 4560 7030
+rect 4486 274 4560 298
 << nsubdiff >>
 rect -222 6968 4415 6988
 rect -222 6934 -142 6968
@@ -29,12 +32,15 @@ rect -222 344 4415 364
 rect -222 310 -142 344
 rect 4335 310 4415 344
 rect -222 290 4415 310
+<< psubdiffcont >>
+rect 4486 298 4560 7006
 << nsubdiffcont >>
 rect -142 6934 4335 6968
 rect -202 370 -168 6908
 rect 4361 370 4395 6908
 rect -142 310 4335 344
 << locali >>
+rect 4486 7006 4560 7022
 rect -202 6934 -142 6968
 rect 4335 6934 4395 6968
 rect -202 6908 -168 6934
@@ -44,6 +50,7 @@ rect -202 310 -142 322
 rect 4335 311 4357 344
 rect 4394 311 4395 370
 rect 4335 310 4395 311
+rect 4486 282 4560 298
 << viali >>
 rect -125 6968 4301 6973
 rect -125 6934 4301 6968
@@ -55,6 +62,7 @@ rect -203 322 -166 370
 rect 4357 370 4361 6865
 rect 4361 370 4394 6865
 rect 4357 311 4394 370
+rect 4498 324 4542 6966
 << metal1 >>
 rect -223 6973 4427 7002
 rect -223 6930 -125 6973
@@ -110,6 +118,10 @@ rect -223 294 -128 322
 rect 4332 311 4357 6865
 rect 4394 311 4427 6865
 rect 4332 285 4427 311
+rect 4486 6966 4560 7006
+rect 4486 324 4498 6966
+rect 4542 324 4560 6966
+rect 4486 46 4560 324
 << metal2 >>
 rect 1032 5677 1540 5757
 rect 490 5152 645 5232
@@ -126,10 +138,10 @@ rect 3967 1259 4027 1569
 rect 3871 1184 4027 1259
 rect 3967 1179 4027 1184
 << metal3 >>
-rect 4055 5508 4519 5588
-rect 4273 3065 4520 3145
-rect 0 360 4520 600
-rect 0 0 4520 240
+rect 4055 5508 4619 5588
+rect 4273 3065 4620 3145
+rect 0 360 4620 600
+rect 0 0 4620 240
 use bb__Guardring_N_1  bb__Guardring_N_1_0
 timestamp 1715010268
 transform 0 1 -552 -1 0 5044
@@ -693,10 +705,12 @@ flabel metal3 s 0 360 110 600 1 FreeSans 1250 0 0 0 vss
 port 2 nsew
 flabel metal3 s 0 0 110 240 1 FreeSans 1250 0 0 0 vdd
 port 3 nsew
-flabel metal3 s 4479 5508 4519 5588 1 FreeSans 1250 0 0 0 ibp
+flabel metal3 s 4579 5508 4619 5588 1 FreeSans 1250 0 0 0 ibp
 port 4 nsew
-flabel metal3 s 4456 3065 4520 3145 1 FreeSans 1250 0 0 0 ibn
+flabel metal3 s 4556 3065 4620 3145 1 FreeSans 1250 0 0 0 ibn
 port 5 nsew
+flabel metal3 4486 46 4560 212 0 FreeSans 800 90 0 0 vsub
+port 7 nsew
 << properties >>
 string FIXED_BBOX -88 0 4520 6753
 << end >>
