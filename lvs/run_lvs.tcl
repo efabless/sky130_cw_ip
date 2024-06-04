@@ -10,10 +10,10 @@ set reflibs ${pdklib}/libs.ref
 set setupfile ${techlibs}/netgen/sky130A_setup.tcl
 set hvlib ${reflibs}/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice
 
-set circuit1 [readnet spice ../netlist/layout/sky130_cw_ip.spice]
+set circuit1 [readnet spice ../netlist/layout/sky130_cw_ip__bandgap.spice]
 set circuit2 [readnet spice $hvlib]
-readnet spice ../netlist/schematic/sky130_cw_ip.spice $circuit2
+readnet spice ../netlist/schematic/sky130_cw_ip__bandgap.spice $circuit2
 
-lvs "$circuit1 sky130_cw_ip" "$circuit2 sky130_cw_ip" \
-        $setupfile sky130_cw_ip_comp.out
+lvs "$circuit1 sky130_cw_ip__bandgap" "$circuit2 sky130_cw_ip__bandgap" \
+        $setupfile sky130_cw_ip__bandgap_comp.out
 ~                                                    
