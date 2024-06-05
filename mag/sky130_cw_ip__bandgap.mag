@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1715026686
+timestamp 1715625863
 << isosubstrate >>
 rect 27702 5976 32680 10950
 << psubdiff >>
@@ -80,11 +80,11 @@ rect -1912 1012 -952 6457
 rect -1912 52 78 1012
 rect 41562 52 42048 1011
 use bandgap_cw  bandgap_cw_0
-timestamp 1715026686
+timestamp 1715625863
 transform 1 0 0 0 -1 14837
 box -6 0 42048 14825
 use bias_basis_current  bias_basis_current_0
-timestamp 1715022476
+timestamp 1715625863
 transform 1 0 -5475 0 1 7162
 box -259 0 4620 7030
 << labels >>

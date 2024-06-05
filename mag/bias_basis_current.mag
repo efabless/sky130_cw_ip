@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1715022476
+timestamp 1715625863
 << dnwell >>
 rect -179 333 4372 6945
 << nwell >>
@@ -143,11 +143,11 @@ rect 4273 3065 4620 3145
 rect 0 360 4620 600
 rect 0 0 4620 240
 use bb__Guardring_N_1  bb__Guardring_N_1_0
-timestamp 1715010268
+timestamp 1715615611
 transform 0 1 -552 -1 0 5044
 box 1438 633 4377 1481
 use bb__Guardring_N_3  bb__Guardring_N_3_0
-timestamp 1715010268
+timestamp 1715615611
 transform 1 0 -390 0 1 -5
 box 735 3825 1393 4412
 use bb__Guardring_P  bb__Guardring_P_0
@@ -155,13 +155,13 @@ timestamp 1715010268
 transform 1 0 1042 0 1 10
 box -934 4853 48 5403
 use bb__M7  bb__M7_0
-timestamp 1715010268
+timestamp 1715616696
 transform 1 0 557 0 1 4110
-box -114 -157 114 157
+box -186 -157 114 157
 use bb__M8  bb__M8_0
-timestamp 1715010268
+timestamp 1715616696
 transform 1 0 793 0 1 4110
-box -114 -157 114 157
+box -114 -157 184 157
 use bb__M9  bb__M9_0
 timestamp 1715010268
 transform 1 0 734 0 1 5113
@@ -171,531 +171,531 @@ timestamp 1715010268
 transform 1 0 476 0 1 5113
 box -194 -148 194 114
 use bb__nmirr  bb__nmirr_0
-timestamp 1715010268
+timestamp 1715625863
 transform 1 0 1586 0 1 1509
 box -1 0 2687 3154
 use bb__pmirr  bb__pmirr_0
-timestamp 1715010268
+timestamp 1715625863
 transform 1 0 1586 0 1 4645
 box 0 0 2549 2096
 use bb__r1  bb__r1_0
-timestamp 1715010268
+timestamp 1715616696
 transform 0 1 2875 -1 0 1055
 box -350 -1288 350 1288
 use bb__R2  bb__R2_0
-timestamp 1715010268
+timestamp 1715616696
 transform -1 0 506 0 -1 2121
-box -194 -1282 194 1282
+box -274 -1462 270 1364
 use via__LI_M1  via__LI_M1_0
-timestamp 1715010268
+timestamp 1715625863
 transform 1 0 3111 0 1 725
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_1
-timestamp 1715010268
+timestamp 1715625863
 transform 1 0 2911 0 1 725
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_2
-timestamp 1715010268
+timestamp 1715625863
 transform 1 0 2511 0 1 725
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_3
-timestamp 1715010268
+timestamp 1715625863
 transform 1 0 2711 0 1 725
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_4
-timestamp 1715010268
+timestamp 1715625863
 transform 1 0 2311 0 1 725
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_5
-timestamp 1715010268
+timestamp 1715625863
 transform 1 0 3311 0 1 725
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_6
-timestamp 1715010268
+timestamp 1715625863
 transform 1 0 3911 0 1 725
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_7
-timestamp 1715010268
+timestamp 1715625863
 transform 0 1 4097 -1 0 1321
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_8
-timestamp 1715010268
+timestamp 1715625863
 transform 0 1 4097 -1 0 1121
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_9
-timestamp 1715010268
+timestamp 1715625863
 transform 1 0 3711 0 1 725
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_10
-timestamp 1715010268
+timestamp 1715625863
 transform 1 0 3911 0 1 1339
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_11
-timestamp 1715010268
+timestamp 1715625863
 transform 1 0 3711 0 1 1339
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_12
-timestamp 1715010268
+timestamp 1715625863
 transform 1 0 3511 0 1 1339
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_13
-timestamp 1715010268
+timestamp 1715625863
 transform 1 0 3311 0 1 1339
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_14
-timestamp 1715010268
+timestamp 1715625863
 transform 1 0 3111 0 1 1339
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_15
-timestamp 1715010268
+timestamp 1715625863
 transform 1 0 2911 0 1 1339
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_16
-timestamp 1715010268
+timestamp 1715625863
 transform 0 1 4097 -1 0 921
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_17
-timestamp 1715010268
+timestamp 1715625863
 transform 1 0 2711 0 1 1339
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_18
-timestamp 1715010268
+timestamp 1715625863
 transform 1 0 2511 0 1 1339
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_19
-timestamp 1715010268
+timestamp 1715625863
 transform 1 0 2311 0 1 1339
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_20
-timestamp 1715010268
+timestamp 1715625863
 transform 1 0 3511 0 1 725
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_21
-timestamp 1715010268
+timestamp 1715625863
 transform 0 1 101 -1 0 2386
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_22
-timestamp 1715010268
+timestamp 1715625863
 transform 0 1 101 -1 0 2586
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_23
-timestamp 1715010268
+timestamp 1715625863
 transform 1 0 1911 0 1 725
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_24
-timestamp 1715010268
+timestamp 1715625863
 transform 1 0 1911 0 1 1339
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_25
-timestamp 1715010268
+timestamp 1715625863
 transform 0 1 101 -1 0 2786
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_26
-timestamp 1715010268
+timestamp 1715625863
 transform 0 1 101 -1 0 2986
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_27
-timestamp 1715010268
+timestamp 1715625863
 transform 0 1 101 -1 0 3186
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_28
-timestamp 1715010268
+timestamp 1715625863
 transform 0 1 863 -1 0 986
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_29
-timestamp 1715010268
+timestamp 1715625863
 transform 0 1 863 -1 0 1186
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_30
-timestamp 1715010268
+timestamp 1715625863
 transform 0 1 863 -1 0 1386
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_31
-timestamp 1715010268
+timestamp 1715625863
 transform 0 1 863 -1 0 1586
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_32
-timestamp 1715010268
+timestamp 1715625863
 transform 0 1 863 -1 0 1786
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_33
-timestamp 1715010268
+timestamp 1715625863
 transform 0 1 863 -1 0 1986
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_34
-timestamp 1715010268
+timestamp 1715625863
 transform 0 1 863 -1 0 2186
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_35
-timestamp 1715010268
+timestamp 1715625863
 transform 0 1 863 -1 0 2386
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_36
-timestamp 1715010268
+timestamp 1715625863
 transform 0 1 863 -1 0 2586
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_37
-timestamp 1715010268
+timestamp 1715625863
 transform 0 1 863 -1 0 2786
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_38
-timestamp 1715010268
+timestamp 1715625863
 transform 0 1 863 -1 0 2986
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_39
-timestamp 1715010268
+timestamp 1715625863
 transform 0 1 863 -1 0 3186
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_40
-timestamp 1715010268
+timestamp 1715625863
 transform 1 0 1711 0 1 1339
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_41
-timestamp 1715010268
+timestamp 1715625863
 transform 0 1 1607 -1 0 1321
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_42
-timestamp 1715010268
+timestamp 1715625863
 transform 0 1 1607 -1 0 1121
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_43
-timestamp 1715010268
+timestamp 1715625863
 transform 0 1 1607 -1 0 921
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_44
-timestamp 1715010268
+timestamp 1715625863
 transform 1 0 1711 0 1 725
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_45
-timestamp 1715010268
+timestamp 1715625863
 transform -1 0 867 0 -1 733
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_46
-timestamp 1715010268
+timestamp 1715625863
 transform -1 0 717 0 -1 733
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_47
-timestamp 1715010268
+timestamp 1715625863
 transform -1 0 567 0 -1 733
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_48
-timestamp 1715010268
+timestamp 1715625863
 transform -1 0 417 0 -1 733
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_49
-timestamp 1715010268
+timestamp 1715625863
 transform -1 0 267 0 -1 733
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_50
-timestamp 1715010268
+timestamp 1715625863
 transform 0 1 101 -1 0 986
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_51
-timestamp 1715010268
+timestamp 1715625863
 transform 0 1 101 -1 0 1186
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_52
-timestamp 1715010268
+timestamp 1715625863
 transform 0 1 101 -1 0 1386
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_53
-timestamp 1715010268
+timestamp 1715625863
 transform 0 1 101 -1 0 1586
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_54
-timestamp 1715010268
+timestamp 1715625863
 transform 0 1 101 -1 0 1786
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_55
-timestamp 1715010268
+timestamp 1715625863
 transform 0 1 101 -1 0 1986
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_56
-timestamp 1715010268
+timestamp 1715625863
 transform 0 1 101 -1 0 2186
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_57
-timestamp 1715010268
+timestamp 1715625863
 transform 1 0 243 0 1 4893
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_58
-timestamp 1715010268
+timestamp 1715625863
 transform 0 -1 246 1 0 5155
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_59
-timestamp 1715010268
+timestamp 1715625863
 transform -1 0 848 0 -1 5321
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_60
-timestamp 1715010268
+timestamp 1715625863
 transform 1 0 796 0 1 3840
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_61
-timestamp 1715010268
+timestamp 1715625863
 transform 1 0 411 0 1 3840
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_62
-timestamp 1715010268
+timestamp 1715625863
 transform 0 -1 983 1 0 3896
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_63
-timestamp 1715010268
+timestamp 1715625863
 transform 0 -1 983 1 0 4230
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_64
-timestamp 1715010268
+timestamp 1715625863
 transform -1 0 778 0 -1 4387
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_65
-timestamp 1715010268
+timestamp 1715625863
 transform -1 0 578 0 -1 4387
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_66
-timestamp 1715010268
+timestamp 1715625863
 transform -1 0 448 0 -1 5321
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_67
-timestamp 1715010268
+timestamp 1715625863
 transform -1 0 648 0 -1 5321
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_68
-timestamp 1715010268
+timestamp 1715625863
 transform 0 1 951 -1 0 5242
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_69
-timestamp 1715010268
+timestamp 1715625863
 transform 0 1 951 -1 0 5082
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_70
-timestamp 1715010268
+timestamp 1715625863
 transform 0 1 365 -1 0 4094
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_71
-timestamp 1715010268
+timestamp 1715625863
 transform 0 1 365 -1 0 4294
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_72
-timestamp 1715010268
+timestamp 1715625863
 transform -1 0 867 0 -1 3586
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_73
-timestamp 1715010268
+timestamp 1715625863
 transform -1 0 717 0 -1 3586
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_74
-timestamp 1715010268
+timestamp 1715625863
 transform -1 0 567 0 -1 3586
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_75
-timestamp 1715010268
+timestamp 1715625863
 transform -1 0 417 0 -1 3586
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_76
-timestamp 1715010268
+timestamp 1715625863
 transform -1 0 267 0 -1 3586
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_77
-timestamp 1715010268
+timestamp 1715625863
 transform 1 0 643 0 1 4893
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_78
-timestamp 1715010268
+timestamp 1715625863
 transform 1 0 443 0 1 4893
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_79
-timestamp 1715010268
+timestamp 1715625863
 transform 1 0 2111 0 1 1339
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_80
-timestamp 1715010268
+timestamp 1715625863
 transform 1 0 2111 0 1 725
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_81
-timestamp 1715010268
+timestamp 1715625863
 transform 0 1 101 -1 0 3386
 box -6 -6 124 52
 use via__LI_M1  via__LI_M1_82
-timestamp 1715010268
+timestamp 1715625863
 transform 0 1 863 -1 0 3386
 box -6 -6 124 52
 use via__M1_M2  via__M1_M2_0
-timestamp 1715010268
+timestamp 1715625863
 transform -1 0 3831 0 -1 600
 box 0 0 140 80
 use via__M1_M2  via__M1_M2_1
-timestamp 1715010268
+timestamp 1715625863
 transform -1 0 3991 0 -1 600
 box 0 0 140 80
 use via__M1_M2  via__M1_M2_2
-timestamp 1715010268
+timestamp 1715625863
 transform -1 0 3831 0 -1 520
 box 0 0 140 80
 use via__M1_M2  via__M1_M2_3
-timestamp 1715010268
+timestamp 1715625863
 transform -1 0 3991 0 -1 520
 box 0 0 140 80
 use via__M1_M2  via__M1_M2_4
-timestamp 1715010268
+timestamp 1715625863
 transform -1 0 3831 0 -1 440
 box 0 0 140 80
 use via__M1_M2  via__M1_M2_5
-timestamp 1715010268
+timestamp 1715625863
 transform -1 0 3991 0 -1 440
 box 0 0 140 80
 use via__M1_M2  via__M1_M2_6
-timestamp 1715010268
+timestamp 1715625863
 transform -1 0 4001 0 1 1179
 box 0 0 140 80
 use via__M1_M2  via__M1_M2_7
-timestamp 1715010268
+timestamp 1715625863
 transform -1 0 485 0 -1 600
 box 0 0 140 80
 use via__M1_M2  via__M1_M2_8
-timestamp 1715010268
+timestamp 1715625863
 transform -1 0 645 0 -1 600
 box 0 0 140 80
 use via__M1_M2  via__M1_M2_9
-timestamp 1715010268
+timestamp 1715625863
 transform -1 0 485 0 -1 520
 box 0 0 140 80
 use via__M1_M2  via__M1_M2_10
-timestamp 1715010268
+timestamp 1715625863
 transform -1 0 645 0 -1 520
 box 0 0 140 80
 use via__M1_M2  via__M1_M2_11
-timestamp 1715010268
+timestamp 1715625863
 transform -1 0 485 0 -1 440
 box 0 0 140 80
 use via__M1_M2  via__M1_M2_12
-timestamp 1715010268
+timestamp 1715625863
 transform -1 0 645 0 -1 440
 box 0 0 140 80
 use via__M1_M2  via__M1_M2_13
-timestamp 1715010268
+timestamp 1715625863
 transform -1 0 540 0 1 5152
 box 0 0 140 80
 use via__M1_M2  via__M1_M2_14
-timestamp 1715010268
+timestamp 1715625863
 transform 0 -1 1112 -1 0 4987
 box 0 0 140 80
 use via__M1_M2  via__M1_M2_15
-timestamp 1715010268
+timestamp 1715625863
 transform 0 -1 645 -1 0 5132
 box 0 0 140 80
 use via__M1_M2  via__M1_M2_16
-timestamp 1715010268
+timestamp 1715625863
 transform 0 -1 1112 -1 0 4152
 box 0 0 140 80
 use via__M1_M2  via__M1_M2_17
-timestamp 1715010268
+timestamp 1715625863
 transform 0 -1 1112 -1 0 3545
 box 0 0 140 80
 use via__M1_M2  via__M1_M2_18
-timestamp 1715010268
+timestamp 1715625863
 transform 0 -1 177 -1 0 5146
 box 0 0 140 80
 use via__M1_M2  via__M1_M2_19
-timestamp 1715010268
+timestamp 1715625863
 transform 0 -1 387 -1 0 3409
 box 0 0 140 80
 use via__M2_M3  via__M2_M3_0
-timestamp 1715010268
+timestamp 1715625863
 transform -1 0 3841 0 -1 600
 box 0 0 160 80
 use via__M2_M3  via__M2_M3_1
-timestamp 1715010268
+timestamp 1715625863
 transform -1 0 3841 0 -1 520
 box 0 0 160 80
 use via__M2_M3  via__M2_M3_2
-timestamp 1715010268
+timestamp 1715625863
 transform -1 0 3841 0 -1 440
 box 0 0 160 80
 use via__M2_M3  via__M2_M3_3
-timestamp 1715010268
+timestamp 1715625863
 transform -1 0 4001 0 -1 600
 box 0 0 160 80
 use via__M2_M3  via__M2_M3_4
-timestamp 1715010268
+timestamp 1715625863
 transform -1 0 4001 0 -1 520
 box 0 0 160 80
 use via__M2_M3  via__M2_M3_5
-timestamp 1715010268
+timestamp 1715625863
 transform -1 0 4001 0 -1 440
 box 0 0 160 80
 use via__M2_M3  via__M2_M3_6
-timestamp 1715010268
+timestamp 1715625863
 transform -1 0 1132 0 -1 240
 box 0 0 160 80
 use via__M2_M3  via__M2_M3_7
-timestamp 1715010268
+timestamp 1715625863
 transform -1 0 1132 0 -1 160
 box 0 0 160 80
 use via__M2_M3  via__M2_M3_8
-timestamp 1715010268
+timestamp 1715625863
 transform -1 0 1132 0 -1 80
 box 0 0 160 80
 use via__M2_M3  via__M2_M3_9
-timestamp 1715010268
+timestamp 1715625863
 transform -1 0 1292 0 -1 240
 box 0 0 160 80
 use via__M2_M3  via__M2_M3_10
-timestamp 1715010268
+timestamp 1715625863
 transform -1 0 1292 0 -1 160
 box 0 0 160 80
 use via__M2_M3  via__M2_M3_11
-timestamp 1715010268
+timestamp 1715625863
 transform -1 0 1478 0 -1 600
 box 0 0 160 80
 use via__M2_M3  via__M2_M3_12
-timestamp 1715010268
+timestamp 1715625863
 transform -1 0 1478 0 -1 520
 box 0 0 160 80
 use via__M2_M3  via__M2_M3_13
-timestamp 1715010268
+timestamp 1715625863
 transform -1 0 1478 0 -1 440
 box 0 0 160 80
 use via__M2_M3  via__M2_M3_14
-timestamp 1715010268
+timestamp 1715625863
 transform -1 0 1638 0 -1 600
 box 0 0 160 80
 use via__M2_M3  via__M2_M3_15
-timestamp 1715010268
+timestamp 1715625863
 transform -1 0 1638 0 -1 520
 box 0 0 160 80
 use via__M2_M3  via__M2_M3_16
-timestamp 1715010268
+timestamp 1715625863
 transform -1 0 495 0 -1 600
 box 0 0 160 80
 use via__M2_M3  via__M2_M3_17
-timestamp 1715010268
+timestamp 1715625863
 transform -1 0 495 0 -1 520
 box 0 0 160 80
 use via__M2_M3  via__M2_M3_18
-timestamp 1715010268
+timestamp 1715625863
 transform -1 0 495 0 -1 440
 box 0 0 160 80
 use via__M2_M3  via__M2_M3_19
-timestamp 1715010268
+timestamp 1715625863
 transform -1 0 655 0 -1 600
 box 0 0 160 80
 use via__M2_M3  via__M2_M3_20
-timestamp 1715010268
+timestamp 1715625863
 transform -1 0 655 0 -1 520
 box 0 0 160 80
 use via__M2_M3  via__M2_M3_21
-timestamp 1715010268
+timestamp 1715625863
 transform -1 0 655 0 -1 440
 box 0 0 160 80
 use via__M2_M3  via__M2_M3_22
-timestamp 1715010268
+timestamp 1715625863
 transform -1 0 1292 0 -1 80
 box 0 0 160 80
 use via__M2_M3  via__M2_M3_23
-timestamp 1715010268
+timestamp 1715625863
 transform -1 0 1638 0 -1 440
 box 0 0 160 80
 use via__M2_M3  via__M2_M3_24
-timestamp 1715010268
+timestamp 1715625863
 transform 1 0 1426 0 1 5677
 box 0 0 160 80
 << labels >>
@@ -709,7 +709,7 @@ flabel metal3 s 4579 5508 4619 5588 1 FreeSans 1250 0 0 0 ibp
 port 4 nsew
 flabel metal3 s 4556 3065 4620 3145 1 FreeSans 1250 0 0 0 ibn
 port 5 nsew
-flabel metal3 4486 46 4560 212 0 FreeSans 800 90 0 0 vsub
+flabel metal1 4486 46 4560 212 0 FreeSans 800 90 0 0 vsub
 port 7 nsew
 << properties >>
 string FIXED_BBOX -88 0 4520 6753
