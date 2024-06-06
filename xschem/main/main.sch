@@ -146,13 +146,13 @@ C {devices/ipin.sym} 480 -80 0 0 {name=p22 lab=refsel
 }
 C {support/spdt.sym} 500 -30 0 0 {name=xsw
 }
-C {xschem/symbols/devices/opin.sym} 960 -230 0 0 {name=p1 lab=ibp[3:0]
+C {devices/opin.sym} 960 -230 0 0 {name=p1 lab=ibp[3:0]
 }
-C {xschem/symbols/devices/opin.sym} 960 -210 0 0 {name=p2 lab=ibn[1:0]
+C {devices/opin.sym} 960 -210 0 0 {name=p2 lab=ibn[1:0]
 }
-C {xschem/symbols/devices/iopin.sym} 90 -630 2 0 {name=p20 lab=vdd
+C {devices/iopin.sym} 90 -630 2 0 {name=p20 lab=vdd
 }
-C {xschem/symbols/devices/iopin.sym} 90 -550 2 0 {name=p21 lab=vss
+C {devices/iopin.sym} 90 -550 2 0 {name=p21 lab=vss
 }
 C {devices/lab_wire.sym} 190 -350 0 1 {name=l20 sig_type=std_logic lab=ibpbas
 }
@@ -169,15 +169,15 @@ C {devices/lab_wire.sym} 220 -580 0 1 {name=l34 sig_type=std_logic lab=dvss
 }
 C {devices/ipin.sym} 90 -670 0 0 {name=p23 lab=rstn
 }
-C {xschem/symbols/devices/opin.sym} 1890 -250 0 0 {name=p7 lab=clksys
+C {devices/opin.sym} 1890 -250 0 0 {name=p7 lab=clksys
 }
-C {xschem/symbols/devices/iopin.sym} 250 -580 0 0 {name=p3 lab=dvss
+C {devices/iopin.sym} 250 -580 0 0 {name=p3 lab=dvss
 }
-C {xschem/symbols/devices/iopin.sym} 250 -520 0 0 {name=p4 lab=avss
+C {devices/iopin.sym} 250 -520 0 0 {name=p4 lab=avss
 }
-C {xschem/symbols/devices/iopin.sym} 1470 -690 0 0 {name=p8 lab=dvdd
+C {devices/iopin.sym} 1470 -690 0 0 {name=p8 lab=dvdd
 }
-C {xschem/symbols/devices/iopin.sym} 1470 -500 0 0 {name=p9 lab=avdd
+C {devices/iopin.sym} 1470 -500 0 0 {name=p9 lab=avdd
 }
 C {devices/lab_wire.sym} 370 -840 0 0 {name=l32 sig_type=std_logic lab=vbg,vss,dvdd,vb[4],vb[3],vb[2],avdd
 }
@@ -194,13 +194,13 @@ C {devices/opin.sym} 550 -840 0 0 {name=p13 lab=tbout
 }
 C {devices/ipin.sym} 340 -800 0 0 {name=p16 lab=tbctl[2:0]
 }
-C {xschem/symbols/sky130_primitives/res_generic_m4} 190 -520 1 0 {name=R3
+C {sky130_fd_pr/res_generic_m4} 190 -520 1 0 {name=R3
 W=9.6
 L=4
 model=res_generic_m4
 mult=1
 }
-C {xschem/symbols/sky130_primitives/res_generic_m4} 190 -580 1 1 {name=R1
+C {sky130_fd_pr/res_generic_m4} 190 -580 1 1 {name=R1
 W=9.6
 L=4
 model=res_generic_m4

@@ -1,4 +1,5 @@
-v {xschem version=3.0.0 file_version=1.2 }
+v {xschem version=3.4.5 file_version=1.2
+}
 G {}
 K {}
 V {}
@@ -10,13 +11,9 @@ T {Startup} 1080 -850 0 0 0.4 0.4 {}
 T {Bandgap} 70 -850 0 0 0.4 0.4 {}
 N 390 -110 410 -110 {lab=#net1}
 N 390 0 450 0 {lab=vss}
-N 450 -110 510 -110 {lab=vss}
-N 510 -110 510 0 {lab=vss}
 N 450 0 510 0 {lab=vss}
 N 100 -110 120 -110 {lab=#net3}
 N 100 0 160 0 {lab=vss}
-N 160 -110 220 -110 {lab=vss}
-N 220 -110 220 0 {lab=vss}
 N 160 0 220 0 {lab=vss}
 N 450 -800 450 -740 {lab=vdd}
 N 160 -800 160 -740 {lab=vdd}
@@ -85,10 +82,10 @@ N 100 -110 100 0 {}
 N 160 -80 160 0 {}
 N 390 -110 390 0 {}
 N 450 -80 450 0 {}
-C {sky130_primitives/pnp_05v5.sym} 430 -110 0 0 {name=Q2
+C {sky130_fd_pr/pnp_05v5.sym} 430 -110 0 0 {name=Q2
 model="pnp_05v5_W0p68L0p68 m=8"
 spiceprefix=X}
-C {sky130_primitives/pnp_05v5.sym} 140 -110 0 0 {name=Q1
+C {sky130_fd_pr/pnp_05v5.sym} 140 -110 0 0 {name=Q1
 model="pnp_05v5_W0p68L0p68 m=1"
 spiceprefix=X}
 C {devices/lab_wire.sym} 320 0 0 0 {name=l2 sig_type=std_logic lab=vss}
@@ -101,21 +98,20 @@ C {devices/opin.sym} 550 -620 0 0 {name=p3 lab=vbg}
 C {devices/lab_wire.sym} 820 -450 0 0 {name=l6 sig_type=std_logic lab=gate}
 C {devices/lab_wire.sym} 320 -710 0 0 {name=l1 sig_type=std_logic lab=gate}
 C {devices/iopin.sym} 710 -370 1 0 {name=p4 lab=bias}
-C {sky130_primitives/cap_mim_m3_1.sym} 880 -350 0 0 {name=C1 model=cap_mim_m3_1 W=10 L=10 MF=8 spiceprefix=X
+C {sky130_fd_pr/cap_mim_m3_1.sym} 880 -350 0 0 {name=C1 model=cap_mim_m3_1 W=10 L=10 MF=8 spiceprefix=X
 }
 C {bandgap/bg_res.sym} 280 -470 0 0 {name=xres
 }
 C {devices/lab_wire.sym} 310 -500 3 0 {name=l4 sig_type=std_logic lab=vss}
-C {sky130_primitives/res_xhigh_po.sym} 450 -360 0 0 {name=R1
-W=0.69
+C {sky130_fd_pr/res_xhigh_po.sym} 450 -360 0 0 {name=R1
 L=13
-model=res_xhigh_po
+model=res_xhigh_po_0p69
 spiceprefix=X
 mult=1
 }
 C {devices/lab_wire.sym} 430 -360 0 0 {name=l9 sig_type=std_logic lab=vss}
 C {devices/lab_wire.sym} 160 -660 3 0 {name=l10 sig_type=std_logic lab=comp}
-C {sky130_primitives/pfet_01v8.sym} 180 -710 0 1 {name=M1
+C {sky130_fd_pr/pfet_01v8.sym} 180 -710 0 1 {name=M1
 L=1
 W=4
 nf=1
@@ -129,7 +125,7 @@ sa=0 sb=0 sd=0
 model=pfet_01v8
 spiceprefix=X
 }
-C {sky130_primitives/pfet_01v8.sym} 430 -710 0 0 {name=M2
+C {sky130_fd_pr/pfet_01v8.sym} 430 -710 0 0 {name=M2
 L=1
 W=4
 nf=1
@@ -145,14 +141,14 @@ spiceprefix=X
 }
 C {devices/lab_wire.sym} 490 -710 0 0 {name=l7 sig_type=std_logic lab=vdd}
 C {devices/lab_wire.sym} 160 -710 0 0 {name=l8 sig_type=std_logic lab=vdd}
-C {xschem/symbols/devices/ipin.sym} 360 -240 0 0 {name=p5 lab=trim[15:0]
+C {devices/ipin.sym} 360 -240 0 0 {name=p5 lab=trim[15:0]
 }
 C {bandgap/bg_trim.sym} 400 -190 0 0 {name=xtr
 }
 C {devices/lab_wire.sym} 400 -200 3 0 {name=l19 sig_type=std_logic lab=vss}
 C {opamp/se_folded_cascode_p.sym} 810 -450 0 0 {name=xamp
 }
-C {xschem/symbols/sky130_primitives/nfet_01v8.sym} 1250 -240 0 0 {name=M3
+C {sky130_fd_pr/nfet_01v8.sym} 1250 -240 0 0 {name=M3
 L=1
 W=1
 nf=1 
@@ -166,7 +162,7 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
-C {xschem/symbols/sky130_primitives/nfet_01v8.sym} 1170 -350 0 1 {name=M4
+C {sky130_fd_pr/nfet_01v8.sym} 1170 -350 0 1 {name=M4
 L=1
 W=1
 nf=1 
@@ -182,7 +178,7 @@ spiceprefix=X
 }
 C {devices/lab_wire.sym} 1150 -350 0 0 {name=l11 sig_type=std_logic lab=vss}
 C {devices/lab_wire.sym} 1270 -240 0 1 {name=l12 sig_type=std_logic lab=vss}
-C {sky130_primitives/pfet_01v8.sym} 1290 -530 0 1 {name=M5
+C {sky130_fd_pr/pfet_01v8.sym} 1290 -530 0 1 {name=M5
 L=1
 W=1
 nf=1
@@ -198,9 +194,9 @@ spiceprefix=X
 }
 C {devices/lab_wire.sym} 1270 -530 0 0 {name=l13 sig_type=std_logic lab=vdd}
 C {devices/lab_wire.sym} 1230 -240 0 0 {name=l14 sig_type=std_logic lab=vbg}
-C {sky130_primitives/cap_mim_m3_1.sym} 1550 -340 0 0 {name=C2 model=cap_mim_m3_1 W=10 L=10 MF=3 spiceprefix=X
+C {sky130_fd_pr/cap_mim_m3_1.sym} 1550 -340 0 0 {name=C2 model=cap_mim_m3_1 W=10 L=10 MF=3 spiceprefix=X
 }
-C {sky130_primitives/pfet_01v8.sym} 1530 -530 0 0 {name=M6
+C {sky130_fd_pr/pfet_01v8.sym} 1530 -530 0 0 {name=M6
 L=1
 W=1
 nf=1
@@ -215,7 +211,7 @@ model=pfet_01v8
 spiceprefix=X
 }
 C {devices/lab_wire.sym} 1550 -530 0 1 {name=l15 sig_type=std_logic lab=vdd}
-C {sky130_primitives/pfet_01v8.sym} 1410 -340 0 0 {name=M7
+C {sky130_fd_pr/pfet_01v8.sym} 1410 -340 0 0 {name=M7
 L=1
 W=1
 nf=1

@@ -1,4 +1,5 @@
-v {xschem version=3.0.0 file_version=1.2 }
+v {xschem version=3.4.5 file_version=1.2
+}
 G {}
 K {}
 V {}
@@ -166,7 +167,7 @@ N 160 -1690 250 -1690 { lab=vss}
 N 160 -1810 250 -1810 { lab=vss}
 N 160 -130 250 -130 { lab=vss}
 C {devices/iopin.sym} 100 -10 0 1 {name=p2 lab=vss}
-C {xschem/symbols/sky130_primitives/nfet_01v8.sym} 110 -130 0 0 {name=M0
+C {sky130_fd_pr/nfet_01v8.sym} 110 -130 0 0 {name=M0
 L=0.5
 W=2
 nf=1 
@@ -183,7 +184,7 @@ spiceprefix=X
 C {devices/lab_wire.sym} 130 -130 0 1 {name=l14 sig_type=std_logic lab=vss}
 C {devices/lab_wire.sym} 20 -130 0 1 {name=l16 sig_type=std_logic lab=ctl[0]
 }
-C {xschem/symbols/sky130_primitives/nfet_01v8.sym} 110 -250 0 0 {name=M1
+C {sky130_fd_pr/nfet_01v8.sym} 110 -250 0 0 {name=M1
 L=0.5
 W=2
 nf=1 
@@ -198,7 +199,7 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {devices/lab_wire.sym} 130 -250 0 1 {name=l18 sig_type=std_logic lab=vss}
-C {xschem/symbols/sky130_primitives/nfet_01v8.sym} 110 -370 0 0 {name=M2
+C {sky130_fd_pr/nfet_01v8.sym} 110 -370 0 0 {name=M2
 L=0.5
 W=2
 nf=1 
@@ -213,7 +214,7 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {devices/lab_wire.sym} 130 -370 0 1 {name=l17 sig_type=std_logic lab=vss}
-C {xschem/symbols/sky130_primitives/nfet_01v8.sym} 110 -490 0 0 {name=M3
+C {sky130_fd_pr/nfet_01v8.sym} 110 -490 0 0 {name=M3
 L=0.5
 W=2
 nf=1 
@@ -228,7 +229,7 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {devices/lab_wire.sym} 130 -490 0 1 {name=l21 sig_type=std_logic lab=vss}
-C {xschem/symbols/sky130_primitives/nfet_01v8.sym} 110 -610 0 0 {name=M4
+C {sky130_fd_pr/nfet_01v8.sym} 110 -610 0 0 {name=M4
 L=0.5
 W=2
 nf=1 
@@ -243,7 +244,7 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {devices/lab_wire.sym} 130 -610 0 1 {name=l26 sig_type=std_logic lab=vss}
-C {xschem/symbols/sky130_primitives/nfet_01v8.sym} 110 -730 0 0 {name=M5
+C {sky130_fd_pr/nfet_01v8.sym} 110 -730 0 0 {name=M5
 L=0.5
 W=2
 nf=1 
@@ -258,7 +259,7 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {devices/lab_wire.sym} 130 -730 0 1 {name=l28 sig_type=std_logic lab=vss}
-C {xschem/symbols/sky130_primitives/nfet_01v8.sym} 110 -850 0 0 {name=M6
+C {sky130_fd_pr/nfet_01v8.sym} 110 -850 0 0 {name=M6
 L=0.5
 W=2
 nf=1 
@@ -273,7 +274,7 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {devices/lab_wire.sym} 130 -850 0 1 {name=l30 sig_type=std_logic lab=vss}
-C {xschem/symbols/sky130_primitives/nfet_01v8.sym} 110 -970 0 0 {name=M7
+C {sky130_fd_pr/nfet_01v8.sym} 110 -970 0 0 {name=M7
 L=0.5
 W=2
 nf=1 
@@ -288,7 +289,7 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {devices/lab_wire.sym} 130 -970 0 1 {name=l32 sig_type=std_logic lab=vss}
-C {xschem/symbols/sky130_primitives/nfet_01v8.sym} 110 -1570 0 0 {name=M12
+C {sky130_fd_pr/nfet_01v8.sym} 110 -1570 0 0 {name=M12
 L=0.5
 W=2
 nf=1 
@@ -303,7 +304,7 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {devices/lab_wire.sym} 130 -1570 0 1 {name=l34 sig_type=std_logic lab=vss}
-C {xschem/symbols/sky130_primitives/nfet_01v8.sym} 110 -1690 0 0 {name=M13
+C {sky130_fd_pr/nfet_01v8.sym} 110 -1690 0 0 {name=M13
 L=0.5
 W=2
 nf=1 
@@ -318,7 +319,7 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {devices/lab_wire.sym} 130 -1690 0 1 {name=l36 sig_type=std_logic lab=vss}
-C {xschem/symbols/sky130_primitives/nfet_01v8.sym} 110 -1810 0 0 {name=M14
+C {sky130_fd_pr/nfet_01v8.sym} 110 -1810 0 0 {name=M14
 L=0.5
 W=2
 nf=1 
@@ -333,7 +334,7 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {devices/lab_wire.sym} 130 -1810 0 1 {name=l38 sig_type=std_logic lab=vss}
-C {xschem/symbols/sky130_primitives/nfet_01v8.sym} 110 -1930 0 0 {name=M15
+C {sky130_fd_pr/nfet_01v8.sym} 110 -1930 0 0 {name=M15
 L=0.5
 W=2
 nf=1 
@@ -348,7 +349,7 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {devices/lab_wire.sym} 130 -1930 0 1 {name=l40 sig_type=std_logic lab=vss}
-C {xschem/symbols/sky130_primitives/nfet_01v8.sym} 110 -1090 0 0 {name=M8
+C {sky130_fd_pr/nfet_01v8.sym} 110 -1090 0 0 {name=M8
 L=0.5
 W=2
 nf=1 
@@ -363,7 +364,7 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {devices/lab_wire.sym} 130 -1090 0 1 {name=l24 sig_type=std_logic lab=vss}
-C {xschem/symbols/sky130_primitives/nfet_01v8.sym} 110 -1210 0 0 {name=M9
+C {sky130_fd_pr/nfet_01v8.sym} 110 -1210 0 0 {name=M9
 L=0.5
 W=2
 nf=1 
@@ -378,7 +379,7 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {devices/lab_wire.sym} 130 -1210 0 1 {name=l42 sig_type=std_logic lab=vss}
-C {xschem/symbols/sky130_primitives/nfet_01v8.sym} 110 -1330 0 0 {name=M10
+C {sky130_fd_pr/nfet_01v8.sym} 110 -1330 0 0 {name=M10
 L=0.5
 W=2
 nf=1 
@@ -393,7 +394,7 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {devices/lab_wire.sym} 130 -1330 0 1 {name=l44 sig_type=std_logic lab=vss}
-C {xschem/symbols/sky130_primitives/nfet_01v8.sym} 110 -1450 0 0 {name=M11
+C {sky130_fd_pr/nfet_01v8.sym} 110 -1450 0 0 {name=M11
 L=0.5
 W=2
 nf=1 
@@ -410,7 +411,7 @@ spiceprefix=X
 C {devices/lab_wire.sym} 130 -1450 0 1 {name=l46 sig_type=std_logic lab=vss}
 C {devices/lab_wire.sym} 130 -1880 0 0 {name=l62 sig_type=std_logic lab=bot
 }
-C {xschem/symbols/devices/ipin.sym} 100 -40 0 0 {name=p1 lab=ctl[15:0]
+C {devices/ipin.sym} 100 -40 0 0 {name=p1 lab=ctl[15:0]
 }
 C {devices/iopin.sym} 270 -50 3 1 {name=p3 lab=bot
 }
@@ -476,115 +477,99 @@ C {devices/lab_wire.sym} 130 -200 0 0 {name=l45 sig_type=std_logic lab=bot
 }
 C {devices/lab_wire.sym} 130 -70 0 0 {name=l47 sig_type=std_logic lab=bot
 }
-C {xschem/symbols/sky130_primitives/res_high_po_1p41.sym} 270 -1930 0 0 {name=R15
-W=1.41
+C {sky130_fd_pr/res_high_po_1p41.sym} 270 -1930 0 0 {name=R15
 L=2.8
-model=res_high_po
+model=res_high_po_1p41
 spiceprefix=X
 mult=1
 }
-C {xschem/symbols/sky130_primitives/res_high_po_1p41.sym} 270 -250 0 0 {name=R1
-W=1.41
+C {sky130_fd_pr/res_high_po_1p41.sym} 270 -250 0 0 {name=R1
 L=2.8
-model=res_high_po
+model=res_high_po_1p41
 spiceprefix=X
 mult=1
 }
-C {xschem/symbols/sky130_primitives/res_high_po_1p41.sym} 270 -370 0 0 {name=R2
-W=1.41
+C {sky130_fd_pr/res_high_po_1p41.sym} 270 -130 0 0 {name=R16
 L=2.8
-model=res_high_po
+model=res_high_po_1p41
 spiceprefix=X
 mult=1
 }
-C {xschem/symbols/sky130_primitives/res_high_po_1p41.sym} 270 -490 0 0 {name=R3
-W=1.41
+C {sky130_fd_pr/res_high_po_1p41.sym} 270 -370 0 0 {name=R2
 L=2.8
-model=res_high_po
+model=res_high_po_1p41
 spiceprefix=X
 mult=1
 }
-C {xschem/symbols/sky130_primitives/res_high_po_1p41.sym} 270 -610 0 0 {name=R4
-W=1.41
+C {sky130_fd_pr/res_high_po_1p41.sym} 270 -490 0 0 {name=R3
 L=2.8
-model=res_high_po
+model=res_high_po_1p41
 spiceprefix=X
 mult=1
 }
-C {xschem/symbols/sky130_primitives/res_high_po_1p41.sym} 270 -730 0 0 {name=R5
-W=1.41
+C {sky130_fd_pr/res_high_po_1p41.sym} 270 -610 0 0 {name=R4
 L=2.8
-model=res_high_po
+model=res_high_po_1p41
 spiceprefix=X
 mult=1
 }
-C {xschem/symbols/sky130_primitives/res_high_po_1p41.sym} 270 -850 0 0 {name=R6
-W=1.41
+C {sky130_fd_pr/res_high_po_1p41.sym} 270 -730 0 0 {name=R5
 L=2.8
-model=res_high_po
+model=res_high_po_1p41
 spiceprefix=X
 mult=1
 }
-C {xschem/symbols/sky130_primitives/res_high_po_1p41.sym} 270 -970 0 0 {name=R7
-W=1.41
+C {sky130_fd_pr/res_high_po_1p41.sym} 270 -850 0 0 {name=R6
 L=2.8
-model=res_high_po
+model=res_high_po_1p41
 spiceprefix=X
 mult=1
 }
-C {xschem/symbols/sky130_primitives/res_high_po_1p41.sym} 270 -1090 0 0 {name=R8
-W=1.41
+C {sky130_fd_pr/res_high_po_1p41.sym} 270 -970 0 0 {name=R7
 L=2.8
-model=res_high_po
+model=res_high_po_1p41
 spiceprefix=X
 mult=1
 }
-C {xschem/symbols/sky130_primitives/res_high_po_1p41.sym} 270 -1210 0 0 {name=R9
-W=1.41
+C {sky130_fd_pr/res_high_po_1p41.sym} 270 -1090 0 0 {name=R8
 L=2.8
-model=res_high_po
+model=res_high_po_1p41
 spiceprefix=X
 mult=1
 }
-C {xschem/symbols/sky130_primitives/res_high_po_1p41.sym} 270 -1330 0 0 {name=R10
-W=1.41
+C {sky130_fd_pr/res_high_po_1p41.sym} 270 -1210 0 0 {name=R9
 L=2.8
-model=res_high_po
+model=res_high_po_1p41
 spiceprefix=X
 mult=1
 }
-C {xschem/symbols/sky130_primitives/res_high_po_1p41.sym} 270 -1450 0 0 {name=R11
-W=1.41
+C {sky130_fd_pr/res_high_po_1p41.sym} 270 -1330 0 0 {name=R10
 L=2.8
-model=res_high_po
+model=res_high_po_1p41
 spiceprefix=X
 mult=1
 }
-C {xschem/symbols/sky130_primitives/res_high_po_1p41.sym} 270 -1570 0 0 {name=R12
-W=1.41
+C {sky130_fd_pr/res_high_po_1p41.sym} 270 -1450 0 0 {name=R11
 L=2.8
-model=res_high_po
+model=res_high_po_1p41
 spiceprefix=X
 mult=1
 }
-C {xschem/symbols/sky130_primitives/res_high_po_1p41.sym} 270 -1690 0 0 {name=R13
-W=1.41
+C {sky130_fd_pr/res_high_po_1p41.sym} 270 -1570 0 0 {name=R12
 L=2.8
-model=res_high_po
+model=res_high_po_1p41
 spiceprefix=X
 mult=1
 }
-C {xschem/symbols/sky130_primitives/res_high_po_1p41.sym} 270 -1810 0 0 {name=R14
-W=1.41
+C {sky130_fd_pr/res_high_po_1p41.sym} 270 -1690 0 0 {name=R13
 L=2.8
-model=res_high_po
+model=res_high_po_1p41
 spiceprefix=X
 mult=1
 }
-C {xschem/symbols/sky130_primitives/res_high_po_1p41.sym} 270 -130 0 0 {name=R16
-W=1.41
+C {sky130_fd_pr/res_high_po_1p41.sym} 270 -1810 0 0 {name=R14
 L=2.8
-model=res_high_po
+model=res_high_po_1p41
 spiceprefix=X
 mult=1
 }

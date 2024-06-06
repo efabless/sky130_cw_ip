@@ -36,7 +36,7 @@ C {devices/lab_wire.sym} 190 -190 0 0 {name=l14 sig_type=std_logic lab=inp[6:0],
 }
 C {devices/lab_wire.sym} 370 -190 0 0 {name=l16 sig_type=std_logic lab=mux_out
 }
-C {xschem/symbols/devices/ipin.sym} 110 -50 0 0 {name=p8 lab=inp[6:0]
+C {devices/ipin.sym} 110 -50 0 0 {name=p8 lab=inp[6:0]
 }
-C {xschem/symbols/devices/ipin.sym} 110 -30 0 0 {name=p5 lab=ctl[2:0]
+C {devices/ipin.sym} 110 -30 0 0 {name=p5 lab=ctl[2:0]
 }

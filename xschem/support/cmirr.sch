@@ -74,7 +74,7 @@ C {devices/iopin.sym} 80 -50 0 1 {name=p3 lab=vss}
 C {devices/iopin.sym} 170 -280 1 1 {name=p5 lab=in
 }
 C {devices/iopin.sym} 330 -280 1 1 {name=p6 lab=out}
-C {xschem/symbols/sky130_primitives/nfet_01v8.sym} 190 -120 0 1 {name=M1B
+C {sky130_fd_pr/nfet_01v8.sym} 190 -120 0 1 {name=M1B
 L=10
 W=1
 nf=1
@@ -88,7 +88,7 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
-C {xschem/symbols/sky130_primitives/nfet_01v8.sym} 310 -120 0 0 {name=M2
+C {sky130_fd_pr/nfet_01v8.sym} 310 -120 0 0 {name=M2
 L=10
 W=1
 nf=1 
@@ -106,7 +106,7 @@ C {devices/lab_wire.sym} 170 -120 0 0 {name=l1 sig_type=std_logic lab=vss
 }
 C {devices/lab_wire.sym} 330 -120 0 1 {name=l2 sig_type=std_logic lab=vss
 }
-C {xschem/symbols/sky130_primitives/nfet_01v8.sym} 190 -210 0 1 {name=M1A
+C {sky130_fd_pr/nfet_01v8.sym} 190 -210 0 1 {name=M1A
 L=10
 W=1
 nf=1
@@ -122,7 +122,7 @@ spiceprefix=X
 }
 C {devices/lab_wire.sym} 170 -210 0 0 {name=l3 sig_type=std_logic lab=vss
 }
-C {xschem/symbols/sky130_primitives/nfet_01v8.sym} 550 -100 0 0 {name=MDUM1[11:0]
+C {sky130_fd_pr/nfet_01v8.sym} 550 -100 0 0 {name=MDUM1[11:0]
 L=10
 W=1
 nf=1 
@@ -138,7 +138,7 @@ spiceprefix=X
 }
 C {devices/lab_wire.sym} 580 -100 0 1 {name=l4 sig_type=std_logic lab=vss
 }
-C {xschem/symbols/sky130_primitives/nfet_01v8.sym} 720 -100 0 0 {name=MDUM3[23:0]
+C {sky130_fd_pr/nfet_01v8.sym} 720 -100 0 0 {name=MDUM3[23:0]
 L=10
 W=1
 nf=1 
@@ -156,7 +156,7 @@ C {devices/lab_wire.sym} 750 -100 0 1 {name=l5 sig_type=std_logic lab=vss
 }
 C {devices/lab_wire.sym} 700 -100 0 0 {name=l6 sig_type=std_logic lab=in
 }
-C {xschem/symbols/sky130_primitives/nfet_01v8.sym} 720 -260 0 0 {name=MDUM2[3:0]
+C {sky130_fd_pr/nfet_01v8.sym} 720 -260 0 0 {name=MDUM2[3:0]
 L=10
 W=1
 nf=1 
@@ -176,7 +176,7 @@ C {devices/lab_wire.sym} 780 -320 0 0 {name=l8 sig_type=std_logic lab=out
 }
 C {devices/lab_wire.sym} 670 -260 0 1 {name=l9 sig_type=std_logic lab=vss
 }
-C {xschem/symbols/sky130_primitives/nfet_01v8.sym} 910 -260 0 0 {name=MDUM4[3:0]
+C {sky130_fd_pr/nfet_01v8.sym} 910 -260 0 0 {name=MDUM4[3:0]
 L=10
 W=1
 nf=1 
@@ -196,7 +196,7 @@ C {devices/lab_wire.sym} 970 -320 0 0 {name=l11 sig_type=std_logic lab=in
 }
 C {devices/lab_wire.sym} 860 -260 0 1 {name=l12 sig_type=std_logic lab=vss
 }
-C {xschem/symbols/sky130_primitives/nfet_01v8.sym} 920 -100 0 0 {name=MDUM5[3:0]
+C {sky130_fd_pr/nfet_01v8.sym} 920 -100 0 0 {name=MDUM5[3:0]
 L=10
 W=1
 nf=1 

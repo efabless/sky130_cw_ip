@@ -39,9 +39,9 @@ C {devices/lab_wire.sym} 530 -410 0 0 {name=l1 sig_type=std_logic lab=dvdd
 }
 C {devices/lab_wire.sym} 530 -270 0 0 {name=l2 sig_type=std_logic lab=dvss
 }
-C {xschem/symbols/sky130_stdcells/mux2_2.sym} 210 -150 0 0 {name=x2 VGND=dvss VNB=dvss VPB=dvdd VPWR=dvdd prefix=sky130_fd_sc_hd__ 
+C {sky130_stdcells/mux2_2.sym} 210 -150 0 0 {name=x2 VGND=dvss VNB=dvss VPB=dvdd VPWR=dvdd prefix=sky130_fd_sc_hd__ 
 }
-C {xschem/symbols/sky130_stdcells/clkbuf_8.sym} 970 -170 0 0 {name=x3 VGND=dvss VNB=dvss VPB=dvdd VPWR=dvdd prefix=sky130_fd_sc_hd__ 
+C {sky130_stdcells/clkbuf_8.sym} 970 -170 0 0 {name=x3 VGND=dvss VNB=dvss VPB=dvdd VPWR=dvdd prefix=sky130_fd_sc_hd__ 
 }
-C {xschem/symbols/sky130_stdcells/mux2_2.sym} 840 -170 2 1 {name=x4 VGND=dvss VNB=dvss VPB=dvdd VPWR=dvdd prefix=sky130_fd_sc_hd__ 
+C {sky130_stdcells/mux2_2.sym} 840 -170 2 1 {name=x4 VGND=dvss VNB=dvss VPB=dvdd VPWR=dvdd prefix=sky130_fd_sc_hd__ 
 }

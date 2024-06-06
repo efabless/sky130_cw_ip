@@ -41,7 +41,7 @@ C {devices/lab_wire.sym} 670 -60 1 0 {name=l1 sig_type=std_logic lab=en_buf}
 C {devices/lab_wire.sym} 560 -60 1 0 {name=l8 sig_type=std_logic lab=enb}
 C {devices/lab_wire.sym} 100 -180 0 0 {name=l9 sig_type=std_logic lab=en_buf}
 C {devices/lab_wire.sym} 400 -180 0 0 {name=l10 sig_type=std_logic lab=enb}
-C {xschem/symbols/sky130_primitives/nfet_01v8.sym} 120 -180 0 0 {name=MSN
+C {sky130_fd_pr/nfet_01v8.sym} 120 -180 0 0 {name=MSN
 L=0.5
 W=1
 nf=1 
@@ -55,7 +55,7 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
-C {xschem/symbols/sky130_primitives/pfet_01v8.sym} 340 -180 0 1 {name=MSP
+C {sky130_fd_pr/pfet_01v8.sym} 340 -180 0 1 {name=MSP
 L=0.5
 W=1
 nf=1

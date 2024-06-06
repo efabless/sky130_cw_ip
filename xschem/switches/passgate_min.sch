@@ -24,7 +24,7 @@ N 460 -60 470 -60 {lab=en}
 N 550 -60 580 -60 {lab=enb}
 N 60 -180 80 -180 {lab=en_buf}
 N 360 -180 400 -180 {lab=enb}
-C {sky130_primitives/nfet_01v8_lvt.sym} 120 -180 0 0 {name=M1
+C {sky130_fd_pr/nfet_01v8_lvt.sym} 120 -180 0 0 {name=M1
 L=0.15
 W=1
 nf=1
@@ -38,7 +38,7 @@ sa=0 sb=0 sd=0
 model=nfet_01v8_lvt
 spiceprefix=X
 }
-C {sky130_primitives/pfet_01v8_lvt.sym} 340 -180 0 1 {name=M2
+C {sky130_fd_pr/pfet_01v8_lvt.sym} 340 -180 0 1 {name=M2
 L=0.35
 W=1
 nf=1

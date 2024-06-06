@@ -73,7 +73,7 @@ C {devices/noconn.sym} 1570 -70 2 0 {name=l10}
 C {devices/lab_wire.sym} 1390 -50 0 0 {name=l11 sig_type=std_logic lab=rst_b}
 C {devices/iopin.sym} 40 -180 0 0 {name=p5 lab=dvdd}
 C {devices/iopin.sym} 40 -140 0 0 {name=p4 lab=dvss}
-C {xschem/symbols/sky130_stdcells/decap_4.sym} 110 -260 0 0 {name=xdec[7:0] VGND=dvss VNB=dvss VPB=dvdd VPWR=dvdd prefix=sky130_fd_sc_hd__ 
+C {sky130_stdcells/decap_4.sym} 110 -260 0 0 {name=xdec[7:0] VGND=dvss VNB=dvss VPB=dvdd VPWR=dvdd prefix=sky130_fd_sc_hd__ 
 }
-C {xschem/symbols/sky130_stdcells/tapvpwrvgnd_1.sym} 110 -320 0 0 {name=xtap VGND=dvss VPWR=dvdd prefix=sky130_fd_sc_hd__ 
+C {sky130_stdcells/tapvpwrvgnd_1.sym} 110 -320 0 0 {name=xtap VGND=dvss VPWR=dvdd prefix=sky130_fd_sc_hd__ 
 }

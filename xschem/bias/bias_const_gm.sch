@@ -50,7 +50,7 @@ C {devices/lab_wire.sym} -760 -470 0 0 {name=l12 sig_type=std_logic lab=vss}
 C {devices/lab_wire.sym} -510 -660 0 0 {name=l13 sig_type=std_logic lab=vdd}
 C {devices/lab_wire.sym} -760 -660 0 0 {name=l14 sig_type=std_logic lab=vdd}
 C {devices/lab_wire.sym} -620 -470 0 0 {name=l16 sig_type=std_logic lab=vbn2}
-C {sky130_primitives/nfet_01v8_lvt.sym} -740 -470 0 1 {name=M3
+C {sky130_fd_pr/nfet_01v8_lvt.sym} -740 -470 0 1 {name=M3
 L=1
 W=2
 nf=1
@@ -63,7 +63,7 @@ nrd="'0.29 / W'" nrs="'0.29 / W'"
 sa=0 sb=0 sd=0
 model=nfet_01v8_lvt
 spiceprefix=X}
-C {sky130_primitives/nfet_01v8_lvt.sym} -570 -470 0 0 {name=M4
+C {sky130_fd_pr/nfet_01v8_lvt.sym} -570 -470 0 0 {name=M4
 L=1
 W=2
 nf=1
@@ -77,7 +77,7 @@ sa=0 sb=0 sd=0
 model=nfet_01v8_lvt
 spiceprefix=X}
 C {devices/lab_wire.sym} -550 -290 3 0 {name=l18 sig_type=std_logic lab=vres}
-C {sky130_primitives/pfet_01v8_lvt.sym} -570 -660 0 0 {name=M6
+C {sky130_fd_pr/pfet_01v8_lvt.sym} -570 -660 0 0 {name=M6
 L=1
 W=2
 nf=1
@@ -90,7 +90,7 @@ nrd="'0.29 / W'" nrs="'0.29 / W'"
 sa=0 sb=0 sd=0
 model=pfet_01v8_lvt
 spiceprefix=X}
-C {sky130_primitives/pfet_01v8_lvt.sym} -740 -660 0 1 {name=M5
+C {sky130_fd_pr/pfet_01v8_lvt.sym} -740 -660 0 1 {name=M5
 L=1
 W=2
 nf=1
@@ -110,7 +110,7 @@ C {devices/iopin.sym} -790 -150 2 0 {name=p6 lab=vss}
 C {devices/lab_wire.sym} -520 -340 0 0 {name=l6 sig_type=std_logic lab=vss}
 C {devices/lab_wire.sym} -760 -340 0 0 {name=l8 sig_type=std_logic lab=vss}
 C {devices/lab_wire.sym} -620 -340 0 0 {name=l9 sig_type=std_logic lab=vbn1}
-C {sky130_primitives/nfet_01v8_lvt.sym} -740 -340 0 1 {name=M1
+C {sky130_fd_pr/nfet_01v8_lvt.sym} -740 -340 0 1 {name=M1
 L=1
 W=2
 nf=1
@@ -123,7 +123,7 @@ nrd="'0.29 / W'" nrs="'0.29 / W'"
 sa=0 sb=0 sd=0
 model=nfet_01v8_lvt
 spiceprefix=X}
-C {sky130_primitives/nfet_01v8_lvt.sym} -570 -340 0 0 {name=M2
+C {sky130_fd_pr/nfet_01v8_lvt.sym} -570 -340 0 0 {name=M2
 L=1
 W=2
 nf=1
@@ -136,7 +136,7 @@ nrd="'0.29 / W'" nrs="'0.29 / W'"
 sa=0 sb=0 sd=0
 model=nfet_01v8_lvt
 spiceprefix=X}
-C {sky130_primitives/res_xhigh_po_0p35.sym} -550 -210 0 0 {name=R1
+C {sky130_fd_pr/res_xhigh_po_0p35.sym} -550 -210 0 0 {name=R1
 W=0.35
 L=17.5
 model=res_xhigh_po_0p35

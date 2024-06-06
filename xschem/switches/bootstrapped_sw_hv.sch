@@ -73,9 +73,9 @@ C {devices/lab_wire.sym} 540 -600 0 0 {name=l8 sig_type=std_logic lab=vbsh}
 C {devices/lab_wire.sym} 520 -410 0 0 {name=l12 sig_type=std_logic lab=vbsl}
 C {devices/lab_wire.sym} 1140 -600 0 0 {name=l13 sig_type=std_logic lab=vs}
 C {devices/lab_wire.sym} 940 -220 3 0 {name=l14 sig_type=std_logic lab=vss}
-C {sky130_primitives/cap_mim_m3_1.sym} 540 -500 0 0 {name=Cbs[4:0] model=cap_mim_m3_1 W=5 L=5 MF=1 spiceprefix=X ic=0
+C {sky130_fd_pr/cap_mim_m3_1.sym} 540 -500 0 0 {name=Cbs[4:0] model=cap_mim_m3_1 W=5 L=5 MF=1 spiceprefix=X ic=0
 }
-C {xschem/symbols/sky130_primitives/pfet_g5v0d10v5.sym} 430 -620 1 0 {name=M3
+C {sky130_fd_pr/pfet_g5v0d10v5.sym} 430 -620 1 0 {name=M3
 L=0.5
 W=1
 nf=1
@@ -89,7 +89,7 @@ sa=0 sb=0 sd=0
 model=pfet_g5v0d10v5
 spiceprefix=X
 }
-C {xschem/symbols/sky130_primitives/pfet_g5v0d10v5.sym} 660 -620 3 1 {name=M4
+C {sky130_fd_pr/pfet_g5v0d10v5.sym} 660 -620 3 1 {name=M4
 L=0.5
 W=1
 nf=1
@@ -103,7 +103,7 @@ sa=0 sb=0 sd=0
 model=pfet_g5v0d10v5
 spiceprefix=X
 }
-C {xschem/symbols/sky130_primitives/nfet_g5v0d10v5.sym} 940 -240 1 0 {name=Ms
+C {sky130_fd_pr/nfet_g5v0d10v5.sym} 940 -240 1 0 {name=Ms
 L=0.5
 W=1
 nf=1
@@ -117,7 +117,7 @@ sa=0 sb=0 sd=0
 model=nfet_g5v0d10v5
 spiceprefix=X
 }
-C {xschem/symbols/sky130_primitives/nfet_g5v0d10v5.sym} 560 -310 0 1 {name=M1
+C {sky130_fd_pr/nfet_g5v0d10v5.sym} 560 -310 0 1 {name=M1
 L=0.5
 W=1
 nf=1
@@ -131,7 +131,7 @@ sa=0 sb=0 sd=0
 model=nfet_g5v0d10v5
 spiceprefix=X
 }
-C {xschem/symbols/sky130_primitives/nfet_g5v0d10v5.sym} 430 -430 1 0 {name=M2
+C {sky130_fd_pr/nfet_g5v0d10v5.sym} 430 -430 1 0 {name=M2
 L=0.5
 W=1
 nf=1
@@ -145,7 +145,7 @@ sa=0 sb=0 sd=0
 model=nfet_g5v0d10v5
 spiceprefix=X
 }
-C {xschem/symbols/sky130_primitives/nfet_g5v0d10v5.sym} 1190 -620 1 0 {name=Ms2
+C {sky130_fd_pr/nfet_g5v0d10v5.sym} 1190 -620 1 0 {name=Ms2
 L=0.5
 W=1
 nf=1
@@ -159,7 +159,7 @@ sa=0 sb=0 sd=0
 model=nfet_g5v0d10v5
 spiceprefix=X
 }
-C {xschem/symbols/sky130_primitives/nfet_g5v0d10v5.sym} 1080 -620 1 0 {name=Ms1
+C {sky130_fd_pr/nfet_g5v0d10v5.sym} 1080 -620 1 0 {name=Ms1
 L=0.5
 W=1
 nf=1

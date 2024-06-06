@@ -243,7 +243,7 @@ C {devices/lab_wire.sym} 70 -250 1 0 {name=l43 sig_type=std_logic lab=vb[5]}
 C {devices/lab_wire.sym} 230 -70 1 0 {name=l44 sig_type=std_logic lab=vb[6]}
 C {bias/bias_amp.sym} 310 -920 0 0 {name=x1}
 C {devices/lab_wire.sym} 670 -920 0 0 {name=l1 sig_type=std_logic lab=gate}
-C {sky130_primitives/pfet_01v8_lvt.sym} 730 -920 0 0 {name=MP2[1:0]
+C {sky130_fd_pr/pfet_01v8_lvt.sym} 730 -920 0 0 {name=MP2[1:0]
 L=2
 W=0.5
 nf=1
@@ -256,7 +256,7 @@ nrd="'0.29 / W'" nrs="'0.29 / W'"
 sa=0 sb=0 sd=0
 model=pfet_01v8_lvt
 spiceprefix=X}
-C {sky130_primitives/pfet_01v8_lvt.sym} 390 -920 0 0 {name=M1
+C {sky130_fd_pr/pfet_01v8_lvt.sym} 390 -920 0 0 {name=M1
 L=2
 W=0.5
 nf=1
@@ -270,7 +270,7 @@ sa=0 sb=0 sd=0
 model=pfet_01v8_lvt
 spiceprefix=X}
 C {devices/lab_wire.sym} 750 -1000 0 1 {name=l47 sig_type=std_logic lab=vdd}
-C {sky130_primitives/pfet_01v8_lvt.sym} 730 -1000 0 0 {name=MPS2[1:0]
+C {sky130_fd_pr/pfet_01v8_lvt.sym} 730 -1000 0 0 {name=MPS2[1:0]
 L=2
 W=0.5
 nf=1
@@ -284,7 +284,7 @@ sa=0 sb=0 sd=0
 model=pfet_01v8_lvt
 spiceprefix=X}
 C {devices/lab_wire.sym} 1250 -920 0 1 {name=l23 sig_type=std_logic lab=vdd}
-C {sky130_primitives/pfet_01v8_lvt.sym} 1230 -920 0 0 {name=MP4[1:0]
+C {sky130_fd_pr/pfet_01v8_lvt.sym} 1230 -920 0 0 {name=MP4[1:0]
 L=2
 W=0.5
 nf=1
@@ -298,7 +298,7 @@ sa=0 sb=0 sd=0
 model=pfet_01v8_lvt
 spiceprefix=X}
 C {devices/lab_wire.sym} 1250 -1000 0 1 {name=l52 sig_type=std_logic lab=vdd}
-C {sky130_primitives/pfet_01v8_lvt.sym} 1230 -1000 0 0 {name=MPS4[1:0]
+C {sky130_fd_pr/pfet_01v8_lvt.sym} 1230 -1000 0 0 {name=MPS4[1:0]
 L=2
 W=0.5
 nf=1
@@ -312,7 +312,7 @@ sa=0 sb=0 sd=0
 model=pfet_01v8_lvt
 spiceprefix=X}
 C {devices/lab_wire.sym} 1490 -920 0 1 {name=l34 sig_type=std_logic lab=vdd}
-C {sky130_primitives/pfet_01v8_lvt.sym} 1470 -920 0 0 {name=MP5[1:0]
+C {sky130_fd_pr/pfet_01v8_lvt.sym} 1470 -920 0 0 {name=MP5[1:0]
 L=2
 W=0.5
 nf=1
@@ -326,7 +326,7 @@ sa=0 sb=0 sd=0
 model=pfet_01v8_lvt
 spiceprefix=X}
 C {devices/lab_wire.sym} 1490 -1000 0 1 {name=l61 sig_type=std_logic lab=vdd}
-C {sky130_primitives/pfet_01v8_lvt.sym} 1470 -1000 0 0 {name=MPS5[1:0]
+C {sky130_fd_pr/pfet_01v8_lvt.sym} 1470 -1000 0 0 {name=MPS5[1:0]
 L=2
 W=0.5
 nf=1
@@ -340,7 +340,7 @@ sa=0 sb=0 sd=0
 model=pfet_01v8_lvt
 spiceprefix=X}
 C {devices/lab_wire.sym} 1710 -920 0 1 {name=l63 sig_type=std_logic lab=vdd}
-C {sky130_primitives/pfet_01v8_lvt.sym} 1690 -920 0 0 {name=MP6[1:0]
+C {sky130_fd_pr/pfet_01v8_lvt.sym} 1690 -920 0 0 {name=MP6[1:0]
 L=2
 W=0.5
 nf=1
@@ -354,7 +354,7 @@ sa=0 sb=0 sd=0
 model=pfet_01v8_lvt
 spiceprefix=X}
 C {devices/lab_wire.sym} 1710 -1000 0 1 {name=l68 sig_type=std_logic lab=vdd}
-C {sky130_primitives/pfet_01v8_lvt.sym} 1690 -1000 0 0 {name=MPS6[1:0]
+C {sky130_fd_pr/pfet_01v8_lvt.sym} 1690 -1000 0 0 {name=MPS6[1:0]
 L=2
 W=0.5
 nf=1
@@ -368,7 +368,7 @@ sa=0 sb=0 sd=0
 model=pfet_01v8_lvt
 spiceprefix=X}
 C {devices/lab_wire.sym} 1020 -920 0 1 {name=l2 sig_type=std_logic lab=vdd}
-C {sky130_primitives/pfet_01v8_lvt.sym} 1000 -920 0 0 {name=MP3[3:0]
+C {sky130_fd_pr/pfet_01v8_lvt.sym} 1000 -920 0 0 {name=MP3[3:0]
 L=2
 W=0.5
 nf=1
@@ -382,7 +382,7 @@ sa=0 sb=0 sd=0
 model=pfet_01v8_lvt
 spiceprefix=X}
 C {devices/lab_wire.sym} 1020 -1000 0 1 {name=l50 sig_type=std_logic lab=vdd}
-C {sky130_primitives/pfet_01v8_lvt.sym} 1000 -1000 0 0 {name=MPS3[3:0]
+C {sky130_fd_pr/pfet_01v8_lvt.sym} 1000 -1000 0 0 {name=MPS3[3:0]
 L=2
 W=0.5
 nf=1
@@ -399,7 +399,7 @@ C {devices/lab_wire.sym} 940 -920 0 0 {name=l3 sig_type=std_logic lab=gate}
 C {devices/lab_wire.sym} 1170 -920 0 0 {name=l24 sig_type=std_logic lab=gate}
 C {devices/lab_wire.sym} 1410 -920 0 0 {name=l37 sig_type=std_logic lab=gate}
 C {devices/lab_wire.sym} 1630 -920 0 0 {name=l46 sig_type=std_logic lab=gate}
-C {sky130_primitives/nfet_01v8_lvt.sym} 770 -160 0 1 {name=MNS2[3:0]
+C {sky130_fd_pr/nfet_01v8_lvt.sym} 770 -160 0 1 {name=MNS2[3:0]
 L=2
 W=1
 nf=1
@@ -413,7 +413,7 @@ sa=0 sb=0 sd=0
 model=nfet_01v8_lvt
 spiceprefix=X
 }
-C {sky130_primitives/nfet_01v8_lvt.sym} 1000 -160 0 0 {name=MNS3[3:0]
+C {sky130_fd_pr/nfet_01v8_lvt.sym} 1000 -160 0 0 {name=MNS3[3:0]
 L=2
 W=1
 nf=1
@@ -430,7 +430,7 @@ spiceprefix=X
 C {devices/lab_wire.sym} 890 -70 0 0 {name=l5 sig_type=std_logic lab=vss}
 C {devices/lab_wire.sym} 750 -160 0 0 {name=l6 sig_type=std_logic lab=vss}
 C {devices/lab_wire.sym} 1020 -160 0 1 {name=l7 sig_type=std_logic lab=vss}
-C {sky130_primitives/nfet_01v8_lvt.sym} 1230 -160 0 0 {name=MNS4[3:0]
+C {sky130_fd_pr/nfet_01v8_lvt.sym} 1230 -160 0 0 {name=MNS4[3:0]
 L=2
 W=1
 nf=1
@@ -445,7 +445,7 @@ model=nfet_01v8_lvt
 spiceprefix=X
 }
 C {devices/lab_wire.sym} 1250 -160 0 1 {name=l10 sig_type=std_logic lab=vss}
-C {sky130_primitives/nfet_01v8_lvt.sym} 770 -310 0 1 {name=MN2[3:0]
+C {sky130_fd_pr/nfet_01v8_lvt.sym} 770 -310 0 1 {name=MN2[3:0]
 L=2
 W=1
 nf=1
@@ -459,7 +459,7 @@ sa=0 sb=0 sd=0
 model=nfet_01v8_lvt
 spiceprefix=X
 }
-C {sky130_primitives/nfet_01v8_lvt.sym} 1000 -310 0 0 {name=MN3[3:0]
+C {sky130_fd_pr/nfet_01v8_lvt.sym} 1000 -310 0 0 {name=MN3[3:0]
 L=2
 W=1
 nf=1
@@ -478,7 +478,7 @@ C {devices/lab_wire.sym} 1020 -310 0 1 {name=l27 sig_type=std_logic lab=vss}
 C {devices/lab_wire.sym} 930 -160 0 0 {name=l29 sig_type=std_logic lab=gate_n}
 C {devices/lab_wire.sym} 1210 -160 0 0 {name=l30 sig_type=std_logic lab=gate_n}
 C {devices/lab_wire.sym} 930 -310 0 0 {name=l35 sig_type=std_logic lab=gate_cas}
-C {sky130_primitives/nfet_01v8_lvt.sym} 1230 -310 0 0 {name=MN4[3:0]
+C {sky130_fd_pr/nfet_01v8_lvt.sym} 1230 -310 0 0 {name=MN4[3:0]
 L=2
 W=1
 nf=1
@@ -494,7 +494,7 @@ spiceprefix=X
 }
 C {devices/lab_wire.sym} 1250 -310 0 1 {name=l38 sig_type=std_logic lab=vss}
 C {devices/lab_wire.sym} 1210 -310 0 0 {name=l45 sig_type=std_logic lab=gate_cas}
-C {sky130_primitives/cap_mim_m3_1.sym} 330 -820 0 1 {name=C1 model=cap_mim_m3_1 W=5 L=5 MF=8 spiceprefix=X}
+C {sky130_fd_pr/cap_mim_m3_1.sym} 330 -820 0 1 {name=C1 model=cap_mim_m3_1 W=5 L=5 MF=8 spiceprefix=X}
 C {devices/lab_wire.sym} 360 -580 1 1 {name=l49 sig_type=std_logic lab=vss}
 C {devices/lab_wire.sym} 280 -580 1 1 {name=l48 sig_type=std_logic lab=vss}
 C {devices/lab_wire.sym} 200 -580 1 1 {name=l51 sig_type=std_logic lab=vss}
@@ -513,105 +513,89 @@ C {devices/lab_wire.sym} 200 -50 1 1 {name=l66 sig_type=std_logic lab=vss}
 C {devices/lab_wire.sym} 120 -50 1 1 {name=l67 sig_type=std_logic lab=vss}
 C {devices/iopin.sym} 410 -70 2 1 {name=p5 lab=vss}
 C {devices/lab_wire.sym} 70 -600 1 0 {name=l69 sig_type=std_logic lab=vb[1]}
-C {sky130_primitives/res_xhigh_po.sym} 360 -600 3 0 {name=R1
-W=0.69
+C {sky130_fd_pr/res_xhigh_po.sym} 360 -600 3 0 {name=R1
 L=25.8
-model=res_xhigh_po
+model=res_xhigh_po_0p69
 spiceprefix=X
 mult=1}
-C {sky130_primitives/res_xhigh_po.sym} 280 -600 3 0 {name=R2
-W=0.69
+C {sky130_fd_pr/res_xhigh_po.sym} 280 -600 3 0 {name=R2
 L=25.8
-model=res_xhigh_po
+model=res_xhigh_po_0p69
 spiceprefix=X
 mult=1}
-C {sky130_primitives/res_xhigh_po.sym} 200 -600 3 0 {name=R3
-W=0.69
+C {sky130_fd_pr/res_xhigh_po.sym} 200 -600 3 0 {name=R3
 L=25.8
-model=res_xhigh_po
+model=res_xhigh_po_0p69
 spiceprefix=X
 mult=1}
-C {sky130_primitives/res_xhigh_po.sym} 120 -600 3 0 {name=R4
-W=0.69
+C {sky130_fd_pr/res_xhigh_po.sym} 120 -600 3 0 {name=R4
 L=25.8
-model=res_xhigh_po
+model=res_xhigh_po_0p69
 spiceprefix=X
 mult=1}
-C {sky130_primitives/res_xhigh_po.sym} 200 -430 3 0 {name=R5
-W=0.69
+C {sky130_fd_pr/res_xhigh_po.sym} 200 -430 3 0 {name=R5
 L=25.8
-model=res_xhigh_po
+model=res_xhigh_po_0p69
 spiceprefix=X
 mult=1}
-C {sky130_primitives/res_xhigh_po.sym} 120 -430 3 0 {name=R6
-W=0.69
+C {sky130_fd_pr/res_xhigh_po.sym} 120 -430 3 0 {name=R6
 L=25.8
-model=res_xhigh_po
+model=res_xhigh_po_0p69
 spiceprefix=X
 mult=1}
-C {sky130_primitives/res_xhigh_po.sym} 360 -430 3 0 {name=R7
-W=0.69
+C {sky130_fd_pr/res_xhigh_po.sym} 360 -430 3 0 {name=R7
 L=25.8
-model=res_xhigh_po
+model=res_xhigh_po_0p69
 spiceprefix=X
 mult=1}
-C {sky130_primitives/res_xhigh_po.sym} 280 -430 3 0 {name=R8
-W=0.69
+C {sky130_fd_pr/res_xhigh_po.sym} 280 -430 3 0 {name=R8
 L=25.8
-model=res_xhigh_po
+model=res_xhigh_po_0p69
 spiceprefix=X
 mult=1}
-C {sky130_primitives/res_xhigh_po.sym} 360 -250 3 0 {name=R9
-W=0.69
+C {sky130_fd_pr/res_xhigh_po.sym} 360 -250 3 0 {name=R9
 L=25.8
-model=res_xhigh_po
+model=res_xhigh_po_0p69
 spiceprefix=X
 mult=1}
-C {sky130_primitives/res_xhigh_po.sym} 280 -250 3 0 {name=R10
-W=0.69
+C {sky130_fd_pr/res_xhigh_po.sym} 280 -250 3 0 {name=R10
 L=25.8
-model=res_xhigh_po
+model=res_xhigh_po_0p69
 spiceprefix=X
 mult=1}
-C {sky130_primitives/res_xhigh_po.sym} 200 -250 3 0 {name=R11
-W=0.69
+C {sky130_fd_pr/res_xhigh_po.sym} 200 -250 3 0 {name=R11
 L=25.8
-model=res_xhigh_po
+model=res_xhigh_po_0p69
 spiceprefix=X
 mult=1}
-C {sky130_primitives/res_xhigh_po.sym} 120 -250 3 0 {name=R12
-W=0.69
+C {sky130_fd_pr/res_xhigh_po.sym} 120 -250 3 0 {name=R12
 L=25.8
-model=res_xhigh_po
+model=res_xhigh_po_0p69
 spiceprefix=X
 mult=1}
-C {sky130_primitives/res_xhigh_po.sym} 200 -70 3 0 {name=R13
-W=0.69
+C {sky130_fd_pr/res_xhigh_po.sym} 200 -70 3 0 {name=R13
 L=25.8
-model=res_xhigh_po
+model=res_xhigh_po_0p69
 spiceprefix=X
 mult=1}
-C {sky130_primitives/res_xhigh_po.sym} 120 -70 3 0 {name=R14
-W=0.69
+C {sky130_fd_pr/res_xhigh_po.sym} 120 -70 3 0 {name=R14
 L=25.8
-model=res_xhigh_po
+model=res_xhigh_po_0p69
 spiceprefix=X
 mult=1}
-C {sky130_primitives/res_xhigh_po.sym} 360 -70 3 0 {name=R15
-W=0.69
+C {sky130_fd_pr/res_xhigh_po.sym} 360 -70 3 0 {name=R15
 L=25.8
-model=res_xhigh_po
+model=res_xhigh_po_0p69
 spiceprefix=X
 mult=1}
-C {sky130_primitives/res_xhigh_po.sym} 280 -70 3 0 {name=R16
-W=0.69
+C {sky130_fd_pr/res_xhigh_po.sym} 280 -70 3 0 {name=R16
 L=25.8
-model=res_xhigh_po
+model=res_xhigh_po_0p69
 spiceprefix=X
 mult=1}
 C {devices/lab_wire.sym} 2200 -450 0 1 {name=l12 sig_type=std_logic lab=vdd}
 C {devices/lab_wire.sym} 2160 -450 0 0 {name=l14 sig_type=std_logic lab=gate}
-C {sky130_primitives/pfet_01v8_lvt.sym} 2180 -450 0 0 {name=MP1
+C {sky130_fd_pr/pfet_01v8_lvt.sym} 2180 -450 0 0 {name=MP1
 L=2
 W=0.5
 nf=1
@@ -624,7 +608,7 @@ nrd="'0.29 / W'" nrs="'0.29 / W'"
 sa=0 sb=0 sd=0
 model=pfet_01v8_lvt
 spiceprefix=X}
-C {sky130_primitives/nfet_01v8_lvt.sym} 2190 -80 0 0 {name=MDUM[7:0]
+C {sky130_fd_pr/nfet_01v8_lvt.sym} 2190 -80 0 0 {name=MDUM[7:0]
 L=2
 W=1
 nf=1
@@ -641,7 +625,7 @@ spiceprefix=X
 C {devices/lab_wire.sym} 2210 -80 0 1 {name=l21 sig_type=std_logic lab=vss}
 C {devices/lab_wire.sym} 2170 -80 0 0 {name=l22 sig_type=std_logic lab=gate_cas
 }
-C {sky130_primitives/nfet_01v8_lvt.sym} 1960 -80 0 0 {name=MDUM_1[3:0]
+C {sky130_fd_pr/nfet_01v8_lvt.sym} 1960 -80 0 0 {name=MDUM_1[3:0]
 L=2
 W=1
 nf=1
@@ -657,7 +641,7 @@ spiceprefix=X
 }
 C {devices/lab_wire.sym} 1940 -80 0 0 {name=l41 sig_type=std_logic lab=gate_n}
 C {devices/lab_wire.sym} 1980 -80 0 1 {name=l70 sig_type=std_logic lab=vss}
-C {sky130_primitives/nfet_01v8_lvt.sym} 1940 -250 0 0 {name=MDUM1[3:0]
+C {sky130_fd_pr/nfet_01v8_lvt.sym} 1940 -250 0 0 {name=MDUM1[3:0]
 L=2
 W=1
 nf=1
@@ -674,7 +658,7 @@ spiceprefix=X
 C {devices/lab_wire.sym} 1960 -250 0 1 {name=l71 sig_type=std_logic lab=vss}
 C {devices/lab_wire.sym} 1920 -250 0 0 {name=l72 sig_type=std_logic lab=gate_cas
 }
-C {sky130_primitives/nfet_01v8_lvt.sym} 2190 -250 0 0 {name=MDUM2[3:0]
+C {sky130_fd_pr/nfet_01v8_lvt.sym} 2190 -250 0 0 {name=MDUM2[3:0]
 L=2
 W=1
 nf=1
@@ -693,7 +677,7 @@ C {devices/lab_wire.sym} 2170 -250 0 0 {name=l74 sig_type=std_logic lab=gate_cas
 }
 C {devices/lab_wire.sym} 2010 -310 0 0 {name=l75 sig_type=std_logic lab=ibn[0]}
 C {devices/lab_wire.sym} 2260 -310 0 0 {name=l76 sig_type=std_logic lab=ibn[1]}
-C {sky130_primitives/nfet_01v8_lvt.sym} 1990 -440 0 0 {name=MDUM3[3:0]
+C {sky130_fd_pr/nfet_01v8_lvt.sym} 1990 -440 0 0 {name=MDUM3[3:0]
 L=2
 W=1
 nf=1
@@ -711,10 +695,9 @@ C {devices/lab_wire.sym} 2010 -440 0 1 {name=l77 sig_type=std_logic lab=vss}
 C {devices/lab_wire.sym} 2000 -500 0 0 {name=l78 sig_type=std_logic lab=gate_cas
 }
 C {devices/lab_wire.sym} 1820 -360 1 1 {name=l16 sig_type=std_logic lab=vss}
-C {sky130_primitives/res_xhigh_po.sym} 1820 -380 3 0 {name=R17[1:0]
-W=0.69
+C {sky130_fd_pr/res_xhigh_po.sym} 1820 -380 3 0 {name=R17[1:0]
 L=25.8
-model=res_xhigh_po
+model=res_xhigh_po_0p69
 spiceprefix=X
 mult=1
 }

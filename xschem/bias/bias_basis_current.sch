@@ -1,4 +1,5 @@
-v {xschem version=3.0.0 file_version=1.2 }
+v {xschem version=3.4.5 file_version=1.2
+}
 G {}
 K {}
 V {}
@@ -86,7 +87,7 @@ C {devices/lab_wire.sym} 850 -440 0 0 {name=l4 sig_type=std_logic lab=vbp}
 C {devices/lab_wire.sym} 920 -440 0 1 {name=l13 sig_type=std_logic lab=vdd}
 C {devices/lab_wire.sym} 710 -440 0 0 {name=l14 sig_type=std_logic lab=vdd}
 C {devices/lab_wire.sym} 920 -210 3 0 {name=l18 sig_type=std_logic lab=vres}
-C {sky130_primitives/pfet_01v8_lvt.sym} 900 -440 0 0 {name=M5
+C {sky130_fd_pr/pfet_01v8_lvt.sym} 900 -440 0 0 {name=M5
 L=1
 W=1
 nf=1
@@ -100,7 +101,7 @@ sa=0 sb=0 sd=0
 model=pfet_01v8_lvt
 spiceprefix=X
 }
-C {sky130_primitives/pfet_01v8_lvt.sym} 730 -440 0 1 {name=M4
+C {sky130_fd_pr/pfet_01v8_lvt.sym} 730 -440 0 1 {name=M4
 L=1
 W=1
 nf=1
@@ -120,7 +121,7 @@ C {devices/iopin.sym} 70 -30 2 0 {name=p6 lab=vss}
 C {devices/lab_wire.sym} 920 -260 0 1 {name=l6 sig_type=std_logic lab=vss}
 C {devices/lab_wire.sym} 710 -260 0 0 {name=l8 sig_type=std_logic lab=vss}
 C {devices/lab_wire.sym} 850 -260 0 0 {name=l9 sig_type=std_logic lab=vbn}
-C {sky130_primitives/nfet_01v8_lvt.sym} 730 -260 0 1 {name=M1
+C {sky130_fd_pr/nfet_01v8_lvt.sym} 730 -260 0 1 {name=M1
 L=0.5
 W=1
 nf=1
@@ -133,7 +134,7 @@ nrd="'0.29 / W'" nrs="'0.29 / W'"
 sa=0 sb=0 sd=0
 model=nfet_01v8_lvt
 spiceprefix=X}
-C {sky130_primitives/nfet_01v8_lvt.sym} 900 -260 0 0 {name=M2
+C {sky130_fd_pr/nfet_01v8_lvt.sym} 900 -260 0 0 {name=M2
 L=0.5
 W=1
 nf=1
@@ -148,7 +149,7 @@ model=nfet_01v8_lvt
 spiceprefix=X}
 C {devices/iopin.sym} 1260 -380 0 0 {name=p2 lab=ibp}
 C {devices/lab_wire.sym} 1110 -440 0 1 {name=l1 sig_type=std_logic lab=vdd}
-C {sky130_primitives/pfet_01v8_lvt.sym} 1090 -440 0 0 {name=M6
+C {sky130_fd_pr/pfet_01v8_lvt.sym} 1090 -440 0 0 {name=M6
 L=1
 W=1
 nf=1
@@ -163,7 +164,7 @@ model=pfet_01v8_lvt
 spiceprefix=X
 }
 C {devices/lab_wire.sym} 1070 -440 0 0 {name=l2 sig_type=std_logic lab=vbp}
-C {sky130_primitives/nfet_01v8_lvt.sym} 1090 -260 0 0 {name=M3
+C {sky130_fd_pr/nfet_01v8_lvt.sym} 1090 -260 0 0 {name=M3
 L=0.5
 W=1
 nf=1
@@ -179,7 +180,7 @@ spiceprefix=X}
 C {devices/lab_wire.sym} 1070 -260 0 0 {name=l3 sig_type=std_logic lab=vbn}
 C {devices/lab_wire.sym} 1110 -260 0 1 {name=l5 sig_type=std_logic lab=vss}
 C {devices/lab_wire.sym} 210 -130 0 0 {name=l7 sig_type=std_logic lab=vss}
-C {sky130_primitives/nfet_01v8_lvt.sym} 230 -130 0 1 {name=M7
+C {sky130_fd_pr/nfet_01v8_lvt.sym} 230 -130 0 1 {name=M7
 L=0.3
 W=1
 nf=1
@@ -193,7 +194,7 @@ sa=0 sb=0 sd=0
 model=nfet_01v8_lvt
 spiceprefix=X}
 C {devices/lab_wire.sym} 370 -130 0 1 {name=l11 sig_type=std_logic lab=vss}
-C {sky130_primitives/nfet_01v8_lvt.sym} 350 -130 0 0 {name=M8
+C {sky130_fd_pr/nfet_01v8_lvt.sym} 350 -130 0 0 {name=M8
 L=0.3
 W=1
 nf=1
@@ -208,7 +209,7 @@ model=nfet_01v8_lvt
 spiceprefix=X}
 C {devices/lab_wire.sym} 260 -180 0 0 {name=l12 sig_type=std_logic lab=vsu}
 C {devices/lab_wire.sym} 210 -260 0 0 {name=l15 sig_type=std_logic lab=vdd}
-C {sky130_primitives/pfet_01v8_lvt.sym} 230 -260 0 1 {name=M9
+C {sky130_fd_pr/pfet_01v8_lvt.sym} 230 -260 0 1 {name=M9
 L=1
 W=0.5
 nf=1
@@ -222,7 +223,7 @@ sa=0 sb=0 sd=0
 model=pfet_01v8_lvt
 spiceprefix=X}
 C {devices/lab_wire.sym} 210 -350 0 0 {name=l16 sig_type=std_logic lab=vdd}
-C {sky130_primitives/pfet_01v8_lvt.sym} 230 -350 0 1 {name=M10
+C {sky130_fd_pr/pfet_01v8_lvt.sym} 230 -350 0 1 {name=M10
 L=1
 W=0.5
 nf=1
@@ -235,17 +236,15 @@ nrd="'0.29 / W'" nrs="'0.29 / W'"
 sa=0 sb=0 sd=0
 model=pfet_01v8_lvt
 spiceprefix=X}
-C {sky130_primitives/res_xhigh_po.sym} 920 -130 0 0 {name=R2
-W=0.35
+C {sky130_fd_pr/res_xhigh_po.sym} 920 -130 0 0 {name=R2
 L=14
-model=res_xhigh_po
+model=res_xhigh_po_0p35
 spiceprefix=X
 mult=1
 }
-C {sky130_primitives/res_xhigh_po.sym} 210 -430 0 0 {name=R1
-W=0.35
+C {sky130_fd_pr/res_xhigh_po.sym} 210 -430 0 0 {name=R1
 L=17
-model=res_xhigh_po
+model=res_xhigh_po_0p35
 spiceprefix=X
 mult=1
 }

@@ -102,7 +102,7 @@ C {lab_wire.sym} 4180 150 0 1 {name=l30 sig_type=std_logic lab=dvdd
 }
 C {lab_wire.sym} 4180 170 0 1 {name=l31 sig_type=std_logic lab=dvss
 }
-C {xschem/symbols/sky130_primitives/cap_mim_m3_2.sym} 3640 -210 0 0 {name=C1[447:0] model=cap_mim_m3_2 W=30 L=30 MF=1 spiceprefix=X
+C {sky130_fd_pr/cap_mim_m3_2.sym} 3640 -210 0 0 {name=C1[447:0] model=cap_mim_m3_2 W=30 L=30 MF=1 spiceprefix=X
 }
 C {lab_wire.sym} 3640 -240 3 1 {name=l32 sig_type=std_logic lab=vdda2
 }

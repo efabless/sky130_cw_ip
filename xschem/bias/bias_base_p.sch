@@ -49,7 +49,7 @@ N -210 -630 -210 -600 { lab=#net1}
 N 20 -630 20 -600 { lab=#net2}
 N 20 -540 20 -520 { lab=ibias_curr}
 C {devices/res.sym} -550 -340 0 0 {name=r0 m=1 value=500k footprint=res10 device=resistor}
-C {sky130_primitives/pnp_05v5.sym} -740 -340 0 1 {name=Q1
+C {sky130_fd_pr/pnp_05v5.sym} -740 -340 0 1 {name=Q1
 model=pnp_05v5_W0p68L0p68
 spiceprefix=X}
 C {devices/lab_wire.sym} -640 -730 0 0 {name=l7 sig_type=std_logic lab=vdd}
@@ -60,7 +60,7 @@ C {devices/lab_wire.sym} -510 -660 0 0 {name=l13 sig_type=std_logic lab=vdd}
 C {devices/lab_wire.sym} -760 -660 0 0 {name=l14 sig_type=std_logic lab=vdd}
 C {devices/lab_wire.sym} -620 -470 0 0 {name=l16 sig_type=std_logic lab=vbn}
 C {devices/lab_wire.sym} -760 -420 3 0 {name=l17 sig_type=std_logic lab=vbe}
-C {sky130_primitives/nfet_01v8_lvt.sym} -740 -470 0 1 {name=M10
+C {sky130_fd_pr/nfet_01v8_lvt.sym} -740 -470 0 1 {name=M10
 L=1
 W=2
 nf=1
@@ -73,7 +73,7 @@ nrd="'0.29 / W'" nrs="'0.29 / W'"
 sa=0 sb=0 sd=0
 model=nfet_01v8_lvt
 spiceprefix=X}
-C {sky130_primitives/nfet_01v8_lvt.sym} -570 -470 0 0 {name=M6
+C {sky130_fd_pr/nfet_01v8_lvt.sym} -570 -470 0 0 {name=M6
 L=1
 W=2
 nf=1
@@ -87,7 +87,7 @@ sa=0 sb=0 sd=0
 model=nfet_01v8_lvt
 spiceprefix=X}
 C {devices/lab_wire.sym} -550 -420 3 0 {name=l18 sig_type=std_logic lab=vres}
-C {sky130_primitives/pfet_01v8_lvt.sym} -570 -660 0 0 {name=M7
+C {sky130_fd_pr/pfet_01v8_lvt.sym} -570 -660 0 0 {name=M7
 L=1
 W=2
 nf=1
@@ -100,7 +100,7 @@ nrd="'0.29 / W'" nrs="'0.29 / W'"
 sa=0 sb=0 sd=0
 model=pfet_01v8_lvt
 spiceprefix=X}
-C {sky130_primitives/pfet_01v8_lvt.sym} -740 -660 0 1 {name=M8
+C {sky130_fd_pr/pfet_01v8_lvt.sym} -740 -660 0 1 {name=M8
 L=1
 W=2
 nf=1
@@ -114,7 +114,7 @@ sa=0 sb=0 sd=0
 model=pfet_01v8_lvt
 spiceprefix=X}
 C {devices/lab_wire.sym} -170 -660 0 0 {name=l19 sig_type=std_logic lab=vdd}
-C {sky130_primitives/pfet_01v8_lvt.sym} -230 -660 0 0 {name=M4
+C {sky130_fd_pr/pfet_01v8_lvt.sym} -230 -660 0 0 {name=M4
 L=1
 W=2
 nf=1
@@ -130,7 +130,7 @@ spiceprefix=X}
 C {devices/iopin.sym} -210 -520 1 0 {name=p2 lab=ibias_bg}
 C {devices/lab_wire.sym} -250 -660 0 0 {name=l1 sig_type=std_logic lab=vb}
 C {devices/lab_wire.sym} 60 -660 0 0 {name=l2 sig_type=std_logic lab=vdd}
-C {sky130_primitives/pfet_01v8_lvt.sym} 0 -660 0 0 {name=M1
+C {sky130_fd_pr/pfet_01v8_lvt.sym} 0 -660 0 0 {name=M1
 L=1
 W=2
 nf=1
