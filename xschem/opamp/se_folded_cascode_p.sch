@@ -1,4 +1,5 @@
-v {xschem version=3.0.0 file_version=1.2 }
+v {xschem version=3.4.5 file_version=1.2
+}
 G {}
 K {}
 V {}
@@ -150,6 +151,17 @@ N 2160 -50 2240 -50 { lab=diff}
 N 2160 -120 2160 -50 { lab=diff}
 N 2160 -200 2240 -200 { lab=diff}
 N 2240 -120 2270 -120 { lab=vdd}
+N 1910 -610 1910 -530 { lab=vdd}
+N 1910 -530 1950 -530 { lab=vdd}
+N 1990 -610 1990 -560 { lab=vdd}
+N 1990 -500 1990 -460 { lab=vdd}
+N 1910 -460 1990 -460 { lab=vdd}
+N 1910 -530 1910 -460 { lab=vdd}
+N 1910 -610 1990 -610 { lab=vdd}
+N 1990 -610 2070 -610 { lab=vdd}
+N 1990 -460 2070 -460 { lab=vdd}
+N 2070 -610 2070 -460 { lab=vdd}
+N 1990 -530 2070 -530 { lab=vdd}
 C {sky130_fd_pr/pfet_01v8_lvt.sym} 970 -450 0 1 {name=M3
 L=1
 W=4
@@ -414,7 +426,7 @@ C {devices/lab_wire.sym} 1200 -580 0 1 {name=l6 sig_type=std_logic lab=nd10
 }
 C {devices/lab_wire.sym} 1460 -580 0 1 {name=l7 sig_type=std_logic lab=nd11
 }
-C {sky130_fd_pr/pfet_01v8_lvt.sym} 1970 -750 0 0 {name=MDUM1[41:0]
+C {sky130_fd_pr/pfet_01v8_lvt.sym} 1970 -750 0 0 {name=MDUM1[43:0]
 L=4
 W=2
 nf=1
@@ -527,3 +539,18 @@ C {devices/lab_wire.sym} 2160 -200 0 1 {name=l50 sig_type=std_logic lab=diff
 }
 C {devices/lab_wire.sym} 1910 -400 0 1 {name=l19 sig_type=std_logic lab=vss}
 C {devices/lab_wire.sym} 2240 -320 0 1 {name=l20 sig_type=std_logic lab=vss}
+C {sky130_fd_pr/pfet_01v8_lvt.sym} 1970 -530 0 0 {name=MDUM8[31:0]
+L=1
+W=1
+nf=1
+mult=1
+ad="'int((nf+1)/2) * W/nf * 0.29'" 
+pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
+as="'int((nf+2)/2) * W/nf * 0.29'" 
+ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
+nrd="'0.29 / W'" nrs="'0.29 / W'"
+sa=0 sb=0 sd=0
+model=pfet_01v8_lvt
+spiceprefix=X
+}
+C {devices/lab_wire.sym} 1910 -610 0 1 {name=l15 sig_type=std_logic lab=vdd}
