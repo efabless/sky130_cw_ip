@@ -9,10 +9,10 @@ P 4 5 1070 -860 1070 20 1640 20 1640 -860 1070 -860 {}
 P 4 5 1000 -860 60 -860 60 20 1000 20 1000 -860 {}
 T {Startup} 1080 -850 0 0 0.4 0.4 {}
 T {Bandgap} 70 -850 0 0 0.4 0.4 {}
-N 390 -110 410 -110 {lab=#net1}
+N 390 -110 410 -110 {lab=vss}
 N 390 0 450 0 {lab=vss}
 N 450 0 510 0 {lab=vss}
-N 100 -110 120 -110 {lab=#net3}
+N 100 -110 120 -110 {lab=vss}
 N 100 0 160 0 {lab=vss}
 N 160 0 220 0 {lab=vss}
 N 450 -800 450 -740 {lab=vdd}
@@ -45,9 +45,9 @@ N 730 -530 730 -490 { lab=vdd}
 N 450 -500 450 -480 { lab=vp}
 N 450 -480 450 -390 { lab=vp}
 N 400 -200 400 -170 { lab=vss}
-N 450 -330 450 -280 { lab=#net5}
+N 450 -330 450 -280 { lab=#net1}
 N 360 -240 380 -240 { lab=trim[15:0]}
-N 450 -200 450 -140 { lab=#net6}
+N 450 -200 450 -140 { lab=#net2}
 N 710 -400 710 -370 { lab=bias}
 N 830 -450 910 -450 { lab=gate}
 N 880 -450 880 -380 { lab=gate}
@@ -78,15 +78,21 @@ N 1350 -340 1390 -340 { lab=vdd}
 N 1430 -340 1450 -340 { lab=vs2}
 N 1450 -390 1450 -340 { lab=vs2}
 N 1430 -390 1450 -390 { lab=vs2}
-N 100 -110 100 0 {}
-N 160 -80 160 0 {}
-N 390 -110 390 0 {}
-N 450 -80 450 0 {}
+N 100 -110 100 0 {
+lab=vss}
+N 160 -80 160 0 {
+lab=vss}
+N 390 -110 390 0 {
+lab=vss}
+N 450 -80 450 0 {
+lab=vss}
 C {sky130_fd_pr/pnp_05v5.sym} 430 -110 0 0 {name=Q2
-model="pnp_05v5_W0p68L0p68 m=8"
+model="pnp_05v5_W0p68L0p68"
+m=8
 spiceprefix=X}
 C {sky130_fd_pr/pnp_05v5.sym} 140 -110 0 0 {name=Q1
-model="pnp_05v5_W0p68L0p68 m=1"
+model="pnp_05v5_W0p68L0p68"
+m=1
 spiceprefix=X}
 C {devices/lab_wire.sym} 320 0 0 0 {name=l2 sig_type=std_logic lab=vss}
 C {devices/lab_wire.sym} 660 -480 0 0 {name=l22 sig_type=std_logic lab=vp}
@@ -103,9 +109,8 @@ C {sky130_fd_pr/cap_mim_m3_1.sym} 880 -350 0 0 {name=C1 model=cap_mim_m3_1 W=10 
 C {bandgap/bg_res.sym} 280 -470 0 0 {name=xres
 }
 C {devices/lab_wire.sym} 310 -500 3 0 {name=l4 sig_type=std_logic lab=vss}
-C {sky130_fd_pr/res_xhigh_po.sym} 450 -360 0 0 {name=R1
+C {sky130_fd_pr/res_xhigh_po_0p69.sym} 450 -360 0 0 {name=R1
 L=13
-model=res_xhigh_po_0p69
 spiceprefix=X
 mult=1
 }

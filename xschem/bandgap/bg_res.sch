@@ -44,9 +44,9 @@ N 590 -120 590 -100 {lab=#net15}
 N 390 -120 390 -100 {lab=#net16}
 N 590 -40 590 -20 {lab=#net17}
 N 390 -40 390 -20 {lab=#net18}
-C {sky130_fd_pr/res_xhigh_po.sym} 390 -710 0 0 {name=R1
+C {sky130_fd_pr/res_xhigh_po_0p69.sym} 390 -710 0 0 {name=R1
 L=13
-model=res_xhigh_po_0p69
+
 spiceprefix=X
 mult=1}
 C {devices/lab_wire.sym} 370 -710 0 0 {name=l1 sig_type=std_logic lab=vss}
@@ -74,98 +74,98 @@ C {devices/lab_wire.sym} 370 -70 0 0 {name=l17 sig_type=std_logic lab=vss}
 C {devices/lab_wire.sym} 570 -70 0 0 {name=l18 sig_type=std_logic lab=vss}
 C {devices/lab_wire.sym} 370 10 0 0 {name=l19 sig_type=std_logic lab=vss}
 C {devices/lab_wire.sym} 570 10 0 0 {name=l20 sig_type=std_logic lab=vss}
-C {sky130_fd_pr/res_xhigh_po.sym} 590 -710 0 0 {name=R2
+C {sky130_fd_pr/res_xhigh_po_0p69.sym} 590 -710 0 0 {name=R2
 L=13
-model=res_xhigh_po_0p69
+
 spiceprefix=X
 mult=1}
-C {sky130_fd_pr/res_xhigh_po.sym} 390 -630 0 0 {name=R3
+C {sky130_fd_pr/res_xhigh_po_0p69.sym} 390 -630 0 0 {name=R3
 L=13
-model=res_xhigh_po_0p69
+
 spiceprefix=X
 mult=1}
-C {sky130_fd_pr/res_xhigh_po.sym} 590 -630 0 0 {name=R4
+C {sky130_fd_pr/res_xhigh_po_0p69.sym} 590 -630 0 0 {name=R4
 L=13
-model=res_xhigh_po_0p69
+
 spiceprefix=X
 mult=1}
-C {sky130_fd_pr/res_xhigh_po.sym} 390 -550 0 0 {name=R5
+C {sky130_fd_pr/res_xhigh_po_0p69.sym} 390 -550 0 0 {name=R5
 L=13
-model=res_xhigh_po_0p69
+
 spiceprefix=X
 mult=1}
-C {sky130_fd_pr/res_xhigh_po.sym} 590 -550 0 0 {name=R6
+C {sky130_fd_pr/res_xhigh_po_0p69.sym} 590 -550 0 0 {name=R6
 L=13
-model=res_xhigh_po_0p69
+
 spiceprefix=X
 mult=1}
-C {sky130_fd_pr/res_xhigh_po.sym} 390 -470 0 0 {name=R7
+C {sky130_fd_pr/res_xhigh_po_0p69.sym} 390 -470 0 0 {name=R7
 L=13
-model=res_xhigh_po_0p69
+
 spiceprefix=X
 mult=1}
-C {sky130_fd_pr/res_xhigh_po.sym} 590 -470 0 0 {name=R8
+C {sky130_fd_pr/res_xhigh_po_0p69.sym} 590 -470 0 0 {name=R8
 L=13
-model=res_xhigh_po_0p69
+
 spiceprefix=X
 mult=1}
-C {sky130_fd_pr/res_xhigh_po.sym} 390 -390 0 0 {name=R9
+C {sky130_fd_pr/res_xhigh_po_0p69.sym} 390 -390 0 0 {name=R9
 L=13
-model=res_xhigh_po_0p69
+
 spiceprefix=X
 mult=1}
-C {sky130_fd_pr/res_xhigh_po.sym} 590 -390 0 0 {name=R10
+C {sky130_fd_pr/res_xhigh_po_0p69.sym} 590 -390 0 0 {name=R10
 L=13
-model=res_xhigh_po_0p69
+
 spiceprefix=X
 mult=1}
-C {sky130_fd_pr/res_xhigh_po.sym} 390 -310 0 0 {name=R11
+C {sky130_fd_pr/res_xhigh_po_0p69.sym} 390 -310 0 0 {name=R11
 L=13
-model=res_xhigh_po_0p69
+
 spiceprefix=X
 mult=1}
-C {sky130_fd_pr/res_xhigh_po.sym} 590 -310 0 0 {name=R12
+C {sky130_fd_pr/res_xhigh_po_0p69.sym} 590 -310 0 0 {name=R12
 L=13
-model=res_xhigh_po_0p69
+
 spiceprefix=X
 mult=1}
-C {sky130_fd_pr/res_xhigh_po.sym} 390 -230 0 0 {name=R13
+C {sky130_fd_pr/res_xhigh_po_0p69.sym} 390 -230 0 0 {name=R13
 L=13
-model=res_xhigh_po_0p69
+
 spiceprefix=X
 mult=1}
-C {sky130_fd_pr/res_xhigh_po.sym} 590 -230 0 0 {name=R14
+C {sky130_fd_pr/res_xhigh_po_0p69.sym} 590 -230 0 0 {name=R14
 L=13
-model=res_xhigh_po_0p69
+
 spiceprefix=X
 mult=1}
-C {sky130_fd_pr/res_xhigh_po.sym} 390 -150 0 0 {name=R15
+C {sky130_fd_pr/res_xhigh_po_0p69.sym} 390 -150 0 0 {name=R15
 L=13
-model=res_xhigh_po_0p69
+
 spiceprefix=X
 mult=1}
-C {sky130_fd_pr/res_xhigh_po.sym} 590 -150 0 0 {name=R16
+C {sky130_fd_pr/res_xhigh_po_0p69.sym} 590 -150 0 0 {name=R16
 L=13
-model=res_xhigh_po_0p69
+
 spiceprefix=X
 mult=1}
-C {sky130_fd_pr/res_xhigh_po.sym} 390 -70 0 0 {name=R17
+C {sky130_fd_pr/res_xhigh_po_0p69.sym} 390 -70 0 0 {name=R17
 L=13
-model=res_xhigh_po_0p69
+
 spiceprefix=X
 mult=1}
-C {sky130_fd_pr/res_xhigh_po.sym} 590 -70 0 0 {name=R18
+C {sky130_fd_pr/res_xhigh_po_0p69.sym} 590 -70 0 0 {name=R18
 L=13
-model=res_xhigh_po_0p69
+
 spiceprefix=X
 mult=1}
-C {sky130_fd_pr/res_xhigh_po.sym} 390 10 0 0 {name=R19
+C {sky130_fd_pr/res_xhigh_po_0p69.sym} 390 10 0 0 {name=R19
 L=13
-model=res_xhigh_po_0p69
+
 spiceprefix=X
 mult=1}
-C {sky130_fd_pr/res_xhigh_po.sym} 590 10 0 0 {name=R20
+C {sky130_fd_pr/res_xhigh_po_0p69.sym} 590 10 0 0 {name=R20
 L=13
-model=res_xhigh_po_0p69
+
 spiceprefix=X
 mult=1}

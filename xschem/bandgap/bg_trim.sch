@@ -478,98 +478,98 @@ C {devices/lab_wire.sym} 130 -200 0 0 {name=l45 sig_type=std_logic lab=bot
 C {devices/lab_wire.sym} 130 -70 0 0 {name=l47 sig_type=std_logic lab=bot
 }
 C {sky130_fd_pr/res_high_po_1p41.sym} 270 -1930 0 0 {name=R15
-L=2.8
-model=res_high_po_1p41
+L=2.92
+
 spiceprefix=X
 mult=1
 }
 C {sky130_fd_pr/res_high_po_1p41.sym} 270 -250 0 0 {name=R1
-L=2.8
-model=res_high_po_1p41
+L=2.92
+
 spiceprefix=X
 mult=1
 }
 C {sky130_fd_pr/res_high_po_1p41.sym} 270 -130 0 0 {name=R16
-L=2.8
-model=res_high_po_1p41
+L=2.92
+
 spiceprefix=X
 mult=1
 }
 C {sky130_fd_pr/res_high_po_1p41.sym} 270 -370 0 0 {name=R2
-L=2.8
-model=res_high_po_1p41
+L=2.92
+
 spiceprefix=X
 mult=1
 }
 C {sky130_fd_pr/res_high_po_1p41.sym} 270 -490 0 0 {name=R3
-L=2.8
-model=res_high_po_1p41
+L=2.92
+
 spiceprefix=X
 mult=1
 }
 C {sky130_fd_pr/res_high_po_1p41.sym} 270 -610 0 0 {name=R4
-L=2.8
-model=res_high_po_1p41
+L=2.92
+
 spiceprefix=X
 mult=1
 }
 C {sky130_fd_pr/res_high_po_1p41.sym} 270 -730 0 0 {name=R5
-L=2.8
-model=res_high_po_1p41
+L=2.92
+
 spiceprefix=X
 mult=1
 }
 C {sky130_fd_pr/res_high_po_1p41.sym} 270 -850 0 0 {name=R6
-L=2.8
-model=res_high_po_1p41
+L=2.92
+
 spiceprefix=X
 mult=1
 }
 C {sky130_fd_pr/res_high_po_1p41.sym} 270 -970 0 0 {name=R7
-L=2.8
-model=res_high_po_1p41
+L=2.92
+
 spiceprefix=X
 mult=1
 }
 C {sky130_fd_pr/res_high_po_1p41.sym} 270 -1090 0 0 {name=R8
-L=2.8
-model=res_high_po_1p41
+L=2.92
+
 spiceprefix=X
 mult=1
 }
 C {sky130_fd_pr/res_high_po_1p41.sym} 270 -1210 0 0 {name=R9
-L=2.8
-model=res_high_po_1p41
+L=2.92
+
 spiceprefix=X
 mult=1
 }
 C {sky130_fd_pr/res_high_po_1p41.sym} 270 -1330 0 0 {name=R10
-L=2.8
-model=res_high_po_1p41
+L=2.92
+
 spiceprefix=X
 mult=1
 }
 C {sky130_fd_pr/res_high_po_1p41.sym} 270 -1450 0 0 {name=R11
-L=2.8
-model=res_high_po_1p41
+L=2.92
+
 spiceprefix=X
 mult=1
 }
 C {sky130_fd_pr/res_high_po_1p41.sym} 270 -1570 0 0 {name=R12
-L=2.8
-model=res_high_po_1p41
+L=2.92
+
 spiceprefix=X
 mult=1
 }
 C {sky130_fd_pr/res_high_po_1p41.sym} 270 -1690 0 0 {name=R13
-L=2.8
-model=res_high_po_1p41
+L=2.92
+
 spiceprefix=X
 mult=1
 }
 C {sky130_fd_pr/res_high_po_1p41.sym} 270 -1810 0 0 {name=R14
-L=2.8
-model=res_high_po_1p41
+L=2.92
+
 spiceprefix=X
 mult=1
 }

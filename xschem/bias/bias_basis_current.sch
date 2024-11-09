@@ -236,15 +236,13 @@ nrd="'0.29 / W'" nrs="'0.29 / W'"
 sa=0 sb=0 sd=0
 model=pfet_01v8_lvt
 spiceprefix=X}
-C {sky130_fd_pr/res_xhigh_po.sym} 920 -130 0 0 {name=R2
-L=14
-model=res_xhigh_po_0p35
+C {sky130_fd_pr/res_xhigh_po_0p35.sym} 920 -130 0 0 {name=R2
+L=14.24
 spiceprefix=X
 mult=1
 }
-C {sky130_fd_pr/res_xhigh_po.sym} 210 -430 0 0 {name=R1
-L=17
-model=res_xhigh_po_0p35
+C {sky130_fd_pr/res_xhigh_po_0p35.sym} 210 -430 0 0 {name=R1
+L=17.24
 spiceprefix=X
 mult=1
 }
