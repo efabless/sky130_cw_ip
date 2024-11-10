@@ -1,0 +1,594 @@
+* NGSPICE file created from sky130_cw_ip__bandgap_nobias.ext - technology: sky130A
+
+.subckt bg__cap c1_n1050_n1000# m3_n1150_n1100#
+X0 c1_n1050_n1000# m3_n1150_n1100# sky130_fd_pr__cap_mim_m3_1 l=10 w=10
+.ends
+
+.subckt bg__res a_n1613_1296# a_n455_n1732# a_n3157_n1732# a_1089_n1732# a_n1227_n1732#
++ a_317_1296# a_n2771_n1732# a_703_1296# a_2247_n1732# a_2247_1296# a_2633_1296# a_n69_n1732#
++ a_n3929_n1732# a_3791_n1732# a_n2385_1296# a_1861_n1732# a_703_n1732# a_n2771_1296#
++ a_n3929_1296# a_3405_n1732# a_n69_1296# a_n455_1296# a_n841_1296# a_n2385_n1732#
++ a_n1999_1296# a_n1999_n1732# a_3019_1296# a_3405_1296# a_n841_n1732# a_n3543_n1732#
++ a_3791_1296# a_1475_n1732# a_317_n1732# a_n1613_n1732# a_n3157_1296# a_3019_n1732#
++ a_1089_1296# a_n3543_1296# a_1475_1296# a_2633_n1732# a_1861_1296# a_n4059_n1862#
++ a_n1227_1296#
+X0 a_317_1296# a_317_n1732# a_n4059_n1862# sky130_fd_pr__res_xhigh_po_0p69 l=13.12
+X1 a_n69_1296# a_n69_n1732# a_n4059_n1862# sky130_fd_pr__res_xhigh_po_0p69 l=13.12
+X2 a_1861_1296# a_1861_n1732# a_n4059_n1862# sky130_fd_pr__res_xhigh_po_0p69 l=13.12
+X3 a_703_1296# a_703_n1732# a_n4059_n1862# sky130_fd_pr__res_xhigh_po_0p69 l=13.12
+X4 a_n2385_1296# a_n2385_n1732# a_n4059_n1862# sky130_fd_pr__res_xhigh_po_0p69 l=13.12
+X5 a_n1227_1296# a_n1227_n1732# a_n4059_n1862# sky130_fd_pr__res_xhigh_po_0p69 l=13.12
+X6 a_2247_1296# a_2247_n1732# a_n4059_n1862# sky130_fd_pr__res_xhigh_po_0p69 l=13.12
+X7 a_n1999_1296# a_n1999_n1732# a_n4059_n1862# sky130_fd_pr__res_xhigh_po_0p69 l=13.12
+X8 a_n1613_1296# a_n1613_n1732# a_n4059_n1862# sky130_fd_pr__res_xhigh_po_0p69 l=13.12
+X9 a_n2771_1296# a_n2771_n1732# a_n4059_n1862# sky130_fd_pr__res_xhigh_po_0p69 l=13.12
+X10 a_2633_1296# a_2633_n1732# a_n4059_n1862# sky130_fd_pr__res_xhigh_po_0p69 l=13.12
+X11 a_3791_1296# a_3791_n1732# a_n4059_n1862# sky130_fd_pr__res_xhigh_po_0p69 l=13.12
+X12 a_n3157_1296# a_n3157_n1732# a_n4059_n1862# sky130_fd_pr__res_xhigh_po_0p69 l=13.12
+X13 a_3019_1296# a_3019_n1732# a_n4059_n1862# sky130_fd_pr__res_xhigh_po_0p69 l=13.12
+X14 a_n3543_1296# a_n3543_n1732# a_n4059_n1862# sky130_fd_pr__res_xhigh_po_0p69 l=13.12
+X15 a_3405_1296# a_3405_n1732# a_n4059_n1862# sky130_fd_pr__res_xhigh_po_0p69 l=13.12
+X16 a_n455_1296# a_n455_n1732# a_n4059_n1862# sky130_fd_pr__res_xhigh_po_0p69 l=13.12
+X17 a_1089_1296# a_1089_n1732# a_n4059_n1862# sky130_fd_pr__res_xhigh_po_0p69 l=13.12
+X18 a_n841_1296# a_n841_n1732# a_n4059_n1862# sky130_fd_pr__res_xhigh_po_0p69 l=13.12
+X19 a_n3929_1296# a_n3929_n1732# a_n4059_n1862# sky130_fd_pr__res_xhigh_po_0p69 l=13.12
+X20 a_1475_1296# a_1475_n1732# a_n4059_n1862# sky130_fd_pr__res_xhigh_po_0p69 l=13.12
+.ends
+
+.subckt bgt__MN a_n108_n231# a_n210_n343# a_50_n231# a_n50_n257#
+X0 a_50_n231# a_n50_n257# a_n108_n231# a_n210_n343# sky130_fd_pr__nfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.5
+.ends
+
+.subckt bgt__res a_n1996_n712# a_n3056_n712# a_124_276# a_n936_276# a_1714_276# a_1714_n712#
++ a_n2526_276# a_654_276# a_n1466_n712# a_n1466_276# a_n4116_n712# a_n4246_n842# a_3304_276#
++ a_2244_276# a_1184_n712# a_n4116_276# a_2774_n712# a_1184_276# a_n3056_276# a_n1996_276#
++ a_3834_276# a_n2526_n712# a_2774_276# a_654_n712# a_3834_n712# a_2244_n712# a_n936_n712#
++ a_n3586_276# a_n3586_n712# a_n406_276# a_124_n712# a_n406_n712# a_3304_n712#
+X0 a_n3586_276# a_n3586_n712# a_n4246_n842# sky130_fd_pr__res_high_po_1p41 l=2.92
+X1 a_n1466_276# a_n1466_n712# a_n4246_n842# sky130_fd_pr__res_high_po_1p41 l=2.92
+X2 a_3834_276# a_3834_n712# a_n4246_n842# sky130_fd_pr__res_high_po_1p41 l=2.92
+X3 a_1714_276# a_1714_n712# a_n4246_n842# sky130_fd_pr__res_high_po_1p41 l=2.92
+X4 a_n936_276# a_n936_n712# a_n4246_n842# sky130_fd_pr__res_high_po_1p41 l=2.92
+X5 a_n3056_276# a_n3056_n712# a_n4246_n842# sky130_fd_pr__res_high_po_1p41 l=2.92
+X6 a_2774_276# a_2774_n712# a_n4246_n842# sky130_fd_pr__res_high_po_1p41 l=2.92
+X7 a_3304_276# a_3304_n712# a_n4246_n842# sky130_fd_pr__res_high_po_1p41 l=2.92
+X8 a_n406_276# a_n406_n712# a_n4246_n842# sky130_fd_pr__res_high_po_1p41 l=2.92
+X9 a_2244_276# a_2244_n712# a_n4246_n842# sky130_fd_pr__res_high_po_1p41 l=2.92
+X10 a_1184_276# a_1184_n712# a_n4246_n842# sky130_fd_pr__res_high_po_1p41 l=2.92
+X11 a_654_276# a_654_n712# a_n4246_n842# sky130_fd_pr__res_high_po_1p41 l=2.92
+X12 a_124_276# a_124_n712# a_n4246_n842# sky130_fd_pr__res_high_po_1p41 l=2.92
+X13 a_n2526_276# a_n2526_n712# a_n4246_n842# sky130_fd_pr__res_high_po_1p41 l=2.92
+X14 a_n1996_276# a_n1996_n712# a_n4246_n842# sky130_fd_pr__res_high_po_1p41 l=2.92
+X15 a_n4116_276# a_n4116_n712# a_n4246_n842# sky130_fd_pr__res_high_po_1p41 l=2.92
+.ends
+
+.subckt bg__trim m2_4223_3828# m2_800_5948# m2_640_4888# m2_4223_648# bgt__res_0/a_3834_n712#
++ m2_1120_8068# m2_480_3828# m2_4223_2768# m2_320_2768# m1_4339_1060# m1_1336_1060#
++ m2_4223_5948# m2_4223_8068# m2_160_1708# m1_3744_8480# m2_4223_4888# m2_4223_1708#
++ m2_960_7008# m2_0_648# VSUBS m2_4223_7008#
+Xbgt__MN_0 m1_4339_1060# VSUBS m1_3744_8480# m2_4223_8068# bgt__MN
+Xbgt__MN_1 m1_4339_1060# VSUBS m1_3323_1060# m2_4223_648# bgt__MN
+Xbgt__MN_2 m1_4339_1060# VSUBS m1_3323_2120# m2_4223_1708# bgt__MN
+Xbgt__MN_3 m1_4339_1060# VSUBS m1_3323_3180# m2_4223_2768# bgt__MN
+Xbgt__MN_5 m1_4339_1060# VSUBS m1_3323_5300# m2_4223_4888# bgt__MN
+Xbgt__MN_4 m1_4339_1060# VSUBS m1_3323_4240# m2_4223_3828# bgt__MN
+Xbgt__MN_6 m1_1336_1060# VSUBS m1_1849_8480# m2_1120_8068# bgt__MN
+Xbgt__MN_7 m1_4339_1060# VSUBS m1_3323_6360# m2_4223_5948# bgt__MN
+Xbgt__MN_8 m1_4339_1060# VSUBS m1_3323_7420# m2_4223_7008# bgt__MN
+Xbgt__MN_9 m1_1336_1060# VSUBS m1_1849_1060# m2_0_648# bgt__MN
+Xbgt__MN_10 m1_1336_1060# VSUBS m1_1849_2120# m2_160_1708# bgt__MN
+Xbgt__MN_11 m1_1336_1060# VSUBS m1_1849_3180# m2_320_2768# bgt__MN
+Xbgt__MN_12 m1_1336_1060# VSUBS m1_1849_4240# m2_480_3828# bgt__MN
+Xbgt__MN_13 m1_1336_1060# VSUBS m1_1849_5300# m2_640_4888# bgt__MN
+Xbgt__MN_14 m1_1336_1060# VSUBS m1_1849_6360# m2_800_5948# bgt__MN
+Xbgt__MN_15 m1_1336_1060# VSUBS m1_1849_7420# m2_960_7008# bgt__MN
+Xbgt__res_0 m1_3323_6360# m1_3323_7420# m1_1849_4240# m1_1849_5300# m1_1849_3180#
++ m1_3323_2120# m1_1849_7420# m1_1849_4240# m1_3323_5300# m1_1849_6360# m1_3744_8480#
++ VSUBS m1_1849_1060# m1_1849_2120# m1_3323_3180# m1_1849_8480# m1_3323_1060# m1_1849_3180#
++ m1_1849_7420# m1_1849_6360# m1_1849_1060# m1_3323_6360# m1_1849_2120# m1_3323_3180#
++ bgt__res_0/a_3834_n712# m1_3323_2120# m1_3323_5300# m1_1849_8480# m1_3323_7420#
++ m1_1849_5300# m1_3323_4240# m1_3323_4240# m1_3323_1060# bgt__res
+.ends
+
+.subckt bgs__M3_M4 a_n287_n131# a_29_n157# a_229_n131# a_n229_n157# a_n389_n243# a_n29_n131#
+X0 a_n29_n131# a_n229_n157# a_n287_n131# a_n389_n243# sky130_fd_pr__nfet_01v8 ad=0.145 pd=1.29 as=0.29 ps=2.58 w=1 l=1
+X1 a_229_n131# a_29_n157# a_n29_n131# a_n389_n243# sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.145 ps=1.29 w=1 l=1
+.ends
+
+.subckt bgs__M5_M6 w_n425_n284# a_n287_n136# a_229_n136# a_29_n162# a_n29_n136# a_n229_n162#
+X0 a_n29_n136# a_n229_n162# a_n287_n136# w_n425_n284# sky130_fd_pr__pfet_01v8 ad=0.145 pd=1.29 as=0.29 ps=2.58 w=1 l=1
+X1 a_229_n136# a_29_n162# a_n29_n136# w_n425_n284# sky130_fd_pr__pfet_01v8 ad=0.29 pd=2.58 as=0.145 ps=1.29 w=1 l=1
+.ends
+
+.subckt bgs__M7 a_100_n136# w_n296_n284# a_n158_n136# a_n100_n162#
+X0 a_100_n136# a_n100_n162# a_n158_n136# w_n296_n284# sky130_fd_pr__pfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=1
+.ends
+
+.subckt bg__startup m2_545_805# VSUBS m1_453_173# bgs__M5_M6_0/w_n425_n284# m2_1443_341#
++ m1_3178_549# m1_1258_542# bgs__M7_0/w_n296_n284# bgs__M3_M4_0/a_n287_n131# bgs__M7_0/a_100_n136#
+Xbgs__M3_M4_0 bgs__M3_M4_0/a_n287_n131# m2_545_805# m1_251_542# m1_251_542# VSUBS
++ m1_453_173# bgs__M3_M4
+Xbgs__M5_M6_0 bgs__M5_M6_0/w_n425_n284# m1_251_542# m1_1258_542# m1_1258_542# m2_1443_341#
++ m1_1258_542# bgs__M5_M6
+Xbgs__M7_0 bgs__M7_0/a_100_n136# bgs__M7_0/w_n296_n284# m1_1258_542# m1_3178_549#
++ bgs__M7
+.ends
+
+.subckt bg__M1_M2 a_n287_n436# a_n487_n462# w_n683_n584# a_229_n436# a_29_n462# a_n545_n436#
++ a_n29_n436# a_n229_n462# a_487_n436# a_287_n462#
+X0 a_n287_n436# a_n487_n462# a_n545_n436# w_n683_n584# sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.29 as=1.16 ps=8.58 w=4 l=1
+X1 a_487_n436# a_287_n462# a_229_n436# w_n683_n584# sky130_fd_pr__pfet_01v8 ad=1.16 pd=8.58 as=0.58 ps=4.29 w=4 l=1
+X2 a_229_n436# a_29_n462# a_n29_n436# w_n683_n584# sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.29 as=0.58 ps=4.29 w=4 l=1
+X3 a_n29_n436# a_n229_n462# a_n287_n436# w_n683_n584# sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.29 as=0.58 ps=4.29 w=4 l=1
+.ends
+
+.subckt bgpg__pnp a_26_26# w_153_153# a_330_330#
+X0 a_26_26# w_153_153# a_330_330# sky130_fd_pr__pnp_05v5_W0p68L0p68
+**devattr s=18496,544
+.ends
+
+.subckt bg__pnp_group GND eg eu VDD
+Xbgpg__pnp_0 GND GND eg bgpg__pnp
+Xbgpg__pnp_1 GND GND eg bgpg__pnp
+Xbgpg__pnp_2 GND GND eg bgpg__pnp
+Xbgpg__pnp_3 GND GND eg bgpg__pnp
+Xbgpg__pnp_4 GND GND eg bgpg__pnp
+Xbgpg__pnp_5 GND GND eg bgpg__pnp
+Xbgpg__pnp_6 GND GND eu bgpg__pnp
+Xbgpg__pnp_7 GND GND eg bgpg__pnp
+Xbgpg__pnp_8 GND GND eg bgpg__pnp
+.ends
+
+.subckt bgfcpm__DUM w_n194_n198# a_100_n136# a_n158_n136# a_n100_n162#
+X0 a_100_n136# a_n100_n162# a_n158_n136# w_n194_n198# sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=1
+.ends
+
+.subckt bgfcpm__M1 w_n194_n198# a_100_n136# a_n158_n136# a_n100_n162#
+X0 a_100_n136# a_n100_n162# a_n158_n136# w_n194_n198# sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=1
+.ends
+
+.subckt bgfcpm__MB2 w_n194_n198# a_100_n136# a_n158_n136# a_n100_n162#
+X0 a_100_n136# a_n100_n162# a_n158_n136# w_n194_n198# sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=1
+.ends
+
+.subckt bgfcpm__MB3 w_n194_n198# a_100_n136# a_n158_n136# a_n100_n162#
+X0 a_100_n136# a_n100_n162# a_n158_n136# w_n194_n198# sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=1
+.ends
+
+.subckt bgfc__pmirr vbp1 diff vbn2 vdd
+Xbgfcpm__DUM_3 vdd vdd vdd vdd bgfcpm__DUM
+Xbgfcpm__DUM_28 vdd vdd vdd vdd bgfcpm__DUM
+Xbgfcpm__DUM_17 vdd vdd vdd vdd bgfcpm__DUM
+Xbgfcpm__DUM_4 vdd vdd vdd vdd bgfcpm__DUM
+Xbgfcpm__M1_0 vdd diff vdd vbp1 bgfcpm__M1
+Xbgfcpm__DUM_29 vdd vdd vdd vdd bgfcpm__DUM
+Xbgfcpm__DUM_18 vdd vdd vdd vdd bgfcpm__DUM
+Xbgfcpm__DUM_5 vdd vdd vdd vdd bgfcpm__DUM
+Xbgfcpm__M1_1 vdd vdd diff vbp1 bgfcpm__M1
+Xbgfcpm__DUM_19 vdd vdd vdd vdd bgfcpm__DUM
+Xbgfcpm__DUM_6 vdd vdd vdd vdd bgfcpm__DUM
+Xbgfcpm__M1_2 vdd diff vdd vbp1 bgfcpm__M1
+Xbgfcpm__DUM_7 vdd vdd vdd vdd bgfcpm__DUM
+Xbgfcpm__M1_3 vdd vdd diff vbp1 bgfcpm__M1
+Xbgfcpm__M1_4 vdd vdd diff vbp1 bgfcpm__M1
+Xbgfcpm__DUM_8 vdd vdd vdd vdd bgfcpm__DUM
+Xbgfcpm__M1_5 vdd vdd diff vbp1 bgfcpm__M1
+Xbgfcpm__DUM_9 vdd vdd vdd vdd bgfcpm__DUM
+Xbgfcpm__M1_6 vdd diff vdd vbp1 bgfcpm__M1
+Xbgfcpm__M1_7 vdd diff vdd vbp1 bgfcpm__M1
+Xbgfcpm__M1_8 vdd vdd diff vbp1 bgfcpm__M1
+Xbgfcpm__M1_9 vdd diff vdd vbp1 bgfcpm__M1
+Xbgfcpm__MB2_0 vdd vdd vbp1 vbp1 bgfcpm__MB2
+Xbgfcpm__M1_10 vdd diff vdd vbp1 bgfcpm__M1
+Xbgfcpm__MB2_1 vdd vdd vbp1 vbp1 bgfcpm__MB2
+Xbgfcpm__M1_11 vdd vdd diff vbp1 bgfcpm__M1
+Xbgfcpm__MB2_2 vdd vbp1 vdd vbp1 bgfcpm__MB2
+Xbgfcpm__M1_12 vdd vdd diff vbp1 bgfcpm__M1
+Xbgfcpm__MB2_3 vdd vbp1 vdd vbp1 bgfcpm__MB2
+Xbgfcpm__M1_13 vdd vdd diff vbp1 bgfcpm__M1
+Xbgfcpm__M1_14 vdd diff vdd vbp1 bgfcpm__M1
+Xbgfcpm__M1_15 vdd diff vdd vbp1 bgfcpm__M1
+Xbgfcpm__DUM_30 vdd vdd vdd vdd bgfcpm__DUM
+Xbgfcpm__DUM_20 vdd vdd vdd vdd bgfcpm__DUM
+Xbgfcpm__DUM_31 vdd vdd vdd vdd bgfcpm__DUM
+Xbgfcpm__DUM_21 vdd vdd vdd vdd bgfcpm__DUM
+Xbgfcpm__DUM_10 vdd vdd vdd vdd bgfcpm__DUM
+Xbgfcpm__DUM_22 vdd vdd vdd vdd bgfcpm__DUM
+Xbgfcpm__DUM_11 vdd vdd vdd vdd bgfcpm__DUM
+Xbgfcpm__MB3_0 vdd vbn2 vdd vbp1 bgfcpm__MB3
+Xbgfcpm__DUM_23 vdd vdd vdd vdd bgfcpm__DUM
+Xbgfcpm__DUM_12 vdd vdd vdd vdd bgfcpm__DUM
+Xbgfcpm__MB3_1 vdd vdd vbn2 vbp1 bgfcpm__MB3
+Xbgfcpm__DUM_24 vdd vdd vdd vdd bgfcpm__DUM
+Xbgfcpm__DUM_13 vdd vdd vdd vdd bgfcpm__DUM
+Xbgfcpm__MB3_2 vdd vbn2 vdd vbp1 bgfcpm__MB3
+Xbgfcpm__DUM_0 vdd vdd vdd vdd bgfcpm__DUM
+Xbgfcpm__DUM_25 vdd vdd vdd vdd bgfcpm__DUM
+Xbgfcpm__DUM_14 vdd vdd vdd vdd bgfcpm__DUM
+Xbgfcpm__MB3_3 vdd vdd vbn2 vbp1 bgfcpm__MB3
+Xbgfcpm__DUM_1 vdd vdd vdd vdd bgfcpm__DUM
+Xbgfcpm__DUM_15 vdd vdd vdd vdd bgfcpm__DUM
+Xbgfcpm__DUM_26 vdd vdd vdd vdd bgfcpm__DUM
+Xbgfcpm__DUM_2 vdd vdd vdd vdd bgfcpm__DUM
+Xbgfcpm__DUM_16 vdd vdd vdd vdd bgfcpm__DUM
+Xbgfcpm__DUM_27 vdd vdd vdd vdd bgfcpm__DUM
+.ends
+
+.subckt bgfcnm__M4 a_100_n131# a_n100_n157# a_n158_n131# VSUBS
+X0 a_100_n131# a_n100_n157# a_n158_n131# VSUBS sky130_fd_pr__nfet_01v8_lvt ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=1
+.ends
+
+.subckt bgfcnm__M5 a_100_n131# a_n100_n157# a_n158_n131# VSUBS
+X0 a_100_n131# a_n100_n157# a_n158_n131# VSUBS sky130_fd_pr__nfet_01v8_lvt ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=1
+.ends
+
+.subckt bgfcnm__MB5 a_100_n131# a_n100_n157# a_n158_n131# VSUBS
+X0 a_100_n131# a_n100_n157# a_n158_n131# VSUBS sky130_fd_pr__nfet_01v8_lvt ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=1
+.ends
+
+.subckt bgfcnm__DUM a_100_n131# a_n100_n157# a_n158_n131# VSUBS
+X0 a_100_n131# a_n100_n157# a_n158_n131# VSUBS sky130_fd_pr__nfet_01v8_lvt ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=1
+.ends
+
+.subckt bgfc__nmirr vbn1 out1n out1p vss
+Xbgfcnm__M4_13 out1n vbn1 vss vss bgfcnm__M4
+Xbgfcnm__M4_0 vss vbn1 out1n vss bgfcnm__M4
+Xbgfcnm__M4_14 vss vbn1 out1n vss bgfcnm__M4
+Xbgfcnm__M4_1 out1n vbn1 vss vss bgfcnm__M4
+Xbgfcnm__M4_15 vss vbn1 out1n vss bgfcnm__M4
+Xbgfcnm__M4_2 out1n vbn1 vss vss bgfcnm__M4
+Xbgfcnm__M4_3 vss vbn1 out1n vss bgfcnm__M4
+Xbgfcnm__M4_4 out1n vbn1 vss vss bgfcnm__M4
+Xbgfcnm__M4_5 vss vbn1 out1n vss bgfcnm__M4
+Xbgfcnm__M4_6 out1n vbn1 vss vss bgfcnm__M4
+Xbgfcnm__M4_7 vss vbn1 out1n vss bgfcnm__M4
+Xbgfcnm__M4_8 out1n vbn1 vss vss bgfcnm__M4
+Xbgfcnm__M5_10 vss vbn1 out1p vss bgfcnm__M5
+Xbgfcnm__MB5_0 vbn1 vbn1 vss vss bgfcnm__MB5
+Xbgfcnm__M4_9 vss vbn1 out1n vss bgfcnm__M4
+Xbgfcnm__MB5_1 vss vbn1 vbn1 vss bgfcnm__MB5
+Xbgfcnm__M5_11 out1p vbn1 vss vss bgfcnm__M5
+Xbgfcnm__M5_12 vss vbn1 out1p vss bgfcnm__M5
+Xbgfcnm__MB5_2 vss vbn1 vbn1 vss bgfcnm__MB5
+Xbgfcnm__DUM_40 vss vss vss vss bgfcnm__DUM
+Xbgfcnm__M5_13 out1p vbn1 vss vss bgfcnm__M5
+Xbgfcnm__MB5_3 vbn1 vbn1 vss vss bgfcnm__MB5
+Xbgfcnm__DUM_41 vss vss vss vss bgfcnm__DUM
+Xbgfcnm__DUM_30 vss vss vss vss bgfcnm__DUM
+Xbgfcnm__DUM_42 vss vss vss vss bgfcnm__DUM
+Xbgfcnm__DUM_31 vss vss vss vss bgfcnm__DUM
+Xbgfcnm__M5_14 vss vbn1 out1p vss bgfcnm__M5
+Xbgfcnm__DUM_20 vss vss vss vss bgfcnm__DUM
+Xbgfcnm__M5_15 out1p vbn1 vss vss bgfcnm__M5
+Xbgfcnm__DUM_21 vss vss vss vss bgfcnm__DUM
+Xbgfcnm__DUM_32 vss vss vss vss bgfcnm__DUM
+Xbgfcnm__DUM_43 vss vss vss vss bgfcnm__DUM
+Xbgfcnm__DUM_0 vss vss vss vss bgfcnm__DUM
+Xbgfcnm__DUM_10 vss vss vss vss bgfcnm__DUM
+Xbgfcnm__DUM_33 vss vss vss vss bgfcnm__DUM
+Xbgfcnm__DUM_22 vss vss vss vss bgfcnm__DUM
+Xbgfcnm__DUM_11 vss vss vss vss bgfcnm__DUM
+Xbgfcnm__DUM_1 vss vss vss vss bgfcnm__DUM
+Xbgfcnm__DUM_23 vss vss vss vss bgfcnm__DUM
+Xbgfcnm__DUM_34 vss vss vss vss bgfcnm__DUM
+Xbgfcnm__DUM_12 vss vss vss vss bgfcnm__DUM
+Xbgfcnm__DUM_2 vss vss vss vss bgfcnm__DUM
+Xbgfcnm__M5_0 out1p vbn1 vss vss bgfcnm__M5
+Xbgfcnm__DUM_35 vss vss vss vss bgfcnm__DUM
+Xbgfcnm__DUM_24 vss vss vss vss bgfcnm__DUM
+Xbgfcnm__DUM_13 vss vss vss vss bgfcnm__DUM
+Xbgfcnm__DUM_3 vss vss vss vss bgfcnm__DUM
+Xbgfcnm__M5_1 vss vbn1 out1p vss bgfcnm__M5
+Xbgfcnm__DUM_36 vss vss vss vss bgfcnm__DUM
+Xbgfcnm__DUM_25 vss vss vss vss bgfcnm__DUM
+Xbgfcnm__DUM_14 vss vss vss vss bgfcnm__DUM
+Xbgfcnm__DUM_4 vss vss vss vss bgfcnm__DUM
+Xbgfcnm__M5_2 out1p vbn1 vss vss bgfcnm__M5
+Xbgfcnm__DUM_37 vss vss vss vss bgfcnm__DUM
+Xbgfcnm__DUM_26 vss vss vss vss bgfcnm__DUM
+Xbgfcnm__DUM_15 vss vss vss vss bgfcnm__DUM
+Xbgfcnm__DUM_5 vss vss vss vss bgfcnm__DUM
+Xbgfcnm__M5_3 vss vbn1 out1p vss bgfcnm__M5
+Xbgfcnm__DUM_38 vss vss vss vss bgfcnm__DUM
+Xbgfcnm__DUM_27 vss vss vss vss bgfcnm__DUM
+Xbgfcnm__DUM_16 vss vss vss vss bgfcnm__DUM
+Xbgfcnm__DUM_6 vss vss vss vss bgfcnm__DUM
+Xbgfcnm__M5_4 vss vbn1 out1p vss bgfcnm__M5
+Xbgfcnm__DUM_39 vss vss vss vss bgfcnm__DUM
+Xbgfcnm__DUM_28 vss vss vss vss bgfcnm__DUM
+Xbgfcnm__DUM_17 vss vss vss vss bgfcnm__DUM
+Xbgfcnm__DUM_7 vss vss vss vss bgfcnm__DUM
+Xbgfcnm__M5_5 out1p vbn1 vss vss bgfcnm__M5
+Xbgfcnm__DUM_29 vss vss vss vss bgfcnm__DUM
+Xbgfcnm__DUM_18 vss vss vss vss bgfcnm__DUM
+Xbgfcnm__DUM_8 vss vss vss vss bgfcnm__DUM
+Xbgfcnm__M5_6 vss vbn1 out1p vss bgfcnm__M5
+Xbgfcnm__DUM_9 vss vss vss vss bgfcnm__DUM
+Xbgfcnm__DUM_19 vss vss vss vss bgfcnm__DUM
+Xbgfcnm__M5_7 out1p vbn1 vss vss bgfcnm__M5
+Xbgfcnm__M5_8 vss vbn1 out1p vss bgfcnm__M5
+Xbgfcnm__M5_9 out1p vbn1 vss vss bgfcnm__M5
+Xbgfcnm__M4_10 out1n vbn1 vss vss bgfcnm__M4
+Xbgfcnm__M4_11 out1n vbn1 vss vss bgfcnm__M4
+Xbgfcnm__M4_12 vss vbn1 out1n vss bgfcnm__M4
+.ends
+
+.subckt bgfccpt__DUM a_n458_n236# a_n400_n262# w_n494_n298# a_400_n236#
+X0 a_400_n236# a_n400_n262# a_n458_n236# w_n494_n298# sky130_fd_pr__pfet_01v8_lvt ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=4
+.ends
+
+.subckt bgfccpt__M11 a_n458_n236# a_n400_n262# w_n494_n298# a_400_n236#
+X0 a_400_n236# a_n400_n262# a_n458_n236# w_n494_n298# sky130_fd_pr__pfet_01v8_lvt ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=4
+.ends
+
+.subckt bgfccpt__M10 a_n458_n236# a_n400_n262# w_n494_n298# a_400_n236#
+X0 a_400_n236# a_n400_n262# a_n458_n236# w_n494_n298# sky130_fd_pr__pfet_01v8_lvt ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=4
+.ends
+
+.subckt bgfc__casp_top vdd nd11 nd10 mirr m1_458_30#
+Xbgfccpt__DUM_7 vdd vdd m1_458_30# vdd bgfccpt__DUM
+Xbgfccpt__DUM_8 mirr mirr m1_458_30# mirr bgfccpt__DUM
+Xbgfccpt__M11_0 vdd mirr m1_458_30# nd11 bgfccpt__M11
+Xbgfccpt__DUM_9 vdd vdd m1_458_30# vdd bgfccpt__DUM
+Xbgfccpt__M11_1 nd11 mirr m1_458_30# vdd bgfccpt__M11
+Xbgfccpt__DUM_20 vdd vdd m1_458_30# vdd bgfccpt__DUM
+Xbgfccpt__M11_2 vdd mirr m1_458_30# nd11 bgfccpt__M11
+Xbgfccpt__DUM_21 vdd vdd m1_458_30# vdd bgfccpt__DUM
+Xbgfccpt__DUM_10 vdd vdd m1_458_30# vdd bgfccpt__DUM
+Xbgfccpt__M11_3 nd11 mirr m1_458_30# vdd bgfccpt__M11
+Xbgfccpt__DUM_22 vdd vdd m1_458_30# vdd bgfccpt__DUM
+Xbgfccpt__DUM_11 vdd vdd m1_458_30# vdd bgfccpt__DUM
+Xbgfccpt__M11_4 nd11 mirr m1_458_30# vdd bgfccpt__M11
+Xbgfccpt__DUM_12 vdd vdd m1_458_30# vdd bgfccpt__DUM
+Xbgfccpt__DUM_23 vdd vdd m1_458_30# vdd bgfccpt__DUM
+Xbgfccpt__M11_5 vdd mirr m1_458_30# nd11 bgfccpt__M11
+Xbgfccpt__DUM_13 vdd vdd m1_458_30# vdd bgfccpt__DUM
+Xbgfccpt__M11_6 vdd mirr m1_458_30# nd11 bgfccpt__M11
+Xbgfccpt__DUM_14 mirr mirr m1_458_30# mirr bgfccpt__DUM
+Xbgfccpt__M11_7 nd11 mirr m1_458_30# vdd bgfccpt__M11
+Xbgfccpt__DUM_15 vdd vdd m1_458_30# vdd bgfccpt__DUM
+Xbgfccpt__DUM_16 vdd vdd m1_458_30# vdd bgfccpt__DUM
+Xbgfccpt__DUM_17 vdd vdd m1_458_30# vdd bgfccpt__DUM
+Xbgfccpt__DUM_18 vdd vdd m1_458_30# vdd bgfccpt__DUM
+Xbgfccpt__DUM_19 mirr mirr m1_458_30# mirr bgfccpt__DUM
+Xbgfccpt__M10_0 vdd mirr m1_458_30# nd10 bgfccpt__M10
+Xbgfccpt__M10_1 nd10 mirr m1_458_30# vdd bgfccpt__M10
+Xbgfccpt__M10_2 nd10 mirr m1_458_30# vdd bgfccpt__M10
+Xbgfccpt__M10_3 nd10 mirr m1_458_30# vdd bgfccpt__M10
+Xbgfccpt__M10_4 vdd mirr m1_458_30# nd10 bgfccpt__M10
+Xbgfccpt__M10_5 nd10 mirr m1_458_30# vdd bgfccpt__M10
+Xbgfccpt__M10_6 vdd mirr m1_458_30# nd10 bgfccpt__M10
+Xbgfccpt__M10_7 vdd mirr m1_458_30# nd10 bgfccpt__M10
+Xbgfccpt__DUM_0 mirr mirr m1_458_30# mirr bgfccpt__DUM
+Xbgfccpt__DUM_1 vdd vdd m1_458_30# vdd bgfccpt__DUM
+Xbgfccpt__DUM_2 vdd vdd m1_458_30# vdd bgfccpt__DUM
+Xbgfccpt__DUM_3 vdd vdd m1_458_30# vdd bgfccpt__DUM
+Xbgfccpt__DUM_4 vdd vdd m1_458_30# vdd bgfccpt__DUM
+Xbgfccpt__DUM_5 vdd vdd m1_458_30# vdd bgfccpt__DUM
+Xbgfccpt__DUM_6 vdd vdd m1_458_30# vdd bgfccpt__DUM
+.ends
+
+.subckt bgfccnt__M6 a_400_n131# a_n400_n157# a_n458_n131# VSUBS
+X0 a_400_n131# a_n400_n157# a_n458_n131# VSUBS sky130_fd_pr__nfet_01v8_lvt ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=4
+.ends
+
+.subckt bgfccnt__DUM a_400_n131# a_n400_n157# a_n458_n131# VSUBS
+X0 a_400_n131# a_n400_n157# a_n458_n131# VSUBS sky130_fd_pr__nfet_01v8_lvt ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=4
+.ends
+
+.subckt bgfccnt__M7 a_400_n131# a_n400_n157# a_n458_n131# VSUBS
+X0 a_400_n131# a_n400_n157# a_n458_n131# VSUBS sky130_fd_pr__nfet_01v8_lvt ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=4
+.ends
+
+.subckt bgfccnt__MB4 a_400_n131# a_n400_n157# a_n458_n131# VSUBS
+X0 a_400_n131# a_n400_n157# a_n458_n131# VSUBS sky130_fd_pr__nfet_01v8_lvt ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=4
+.ends
+
+.subckt bgfc__casn_top vbn2 vbn1 out mirr out1n out1p VSUBS
+Xbgfccnt__M6_0 mirr vbn2 out1n VSUBS bgfccnt__M6
+Xbgfccnt__M6_1 out1n vbn2 mirr VSUBS bgfccnt__M6
+Xbgfccnt__M6_2 out1n vbn2 mirr VSUBS bgfccnt__M6
+Xbgfccnt__M6_3 mirr vbn2 out1n VSUBS bgfccnt__M6
+Xbgfccnt__M6_4 out1n vbn2 mirr VSUBS bgfccnt__M6
+Xbgfccnt__DUM_0 VSUBS VSUBS VSUBS VSUBS bgfccnt__DUM
+Xbgfccnt__M6_5 mirr vbn2 out1n VSUBS bgfccnt__M6
+Xbgfccnt__DUM_1 vbn2 vbn2 vbn2 VSUBS bgfccnt__DUM
+Xbgfccnt__M6_6 out1n vbn2 mirr VSUBS bgfccnt__M6
+Xbgfccnt__DUM_2 VSUBS VSUBS VSUBS VSUBS bgfccnt__DUM
+Xbgfccnt__M6_7 mirr vbn2 out1n VSUBS bgfccnt__M6
+Xbgfccnt__DUM_3 VSUBS VSUBS VSUBS VSUBS bgfccnt__DUM
+Xbgfccnt__DUM_4 VSUBS VSUBS VSUBS VSUBS bgfccnt__DUM
+Xbgfccnt__DUM_5 VSUBS VSUBS VSUBS VSUBS bgfccnt__DUM
+Xbgfccnt__DUM_6 VSUBS VSUBS VSUBS VSUBS bgfccnt__DUM
+Xbgfccnt__DUM_7 VSUBS VSUBS VSUBS VSUBS bgfccnt__DUM
+Xbgfccnt__DUM_8 vbn2 vbn2 vbn2 VSUBS bgfccnt__DUM
+Xbgfccnt__DUM_9 VSUBS VSUBS VSUBS VSUBS bgfccnt__DUM
+Xbgfccnt__M7_0 out vbn2 out1p VSUBS bgfccnt__M7
+Xbgfccnt__M7_1 out1p vbn2 out VSUBS bgfccnt__M7
+Xbgfccnt__M7_2 out1p vbn2 out VSUBS bgfccnt__M7
+Xbgfccnt__DUM_20 VSUBS VSUBS VSUBS VSUBS bgfccnt__DUM
+Xbgfccnt__MB4_0 vbn1 vbn2 vbn2 VSUBS bgfccnt__MB4
+Xbgfccnt__M7_3 out vbn2 out1p VSUBS bgfccnt__M7
+Xbgfccnt__DUM_10 VSUBS VSUBS VSUBS VSUBS bgfccnt__DUM
+Xbgfccnt__DUM_21 VSUBS VSUBS VSUBS VSUBS bgfccnt__DUM
+Xbgfccnt__MB4_1 vbn1 vbn2 vbn2 VSUBS bgfccnt__MB4
+Xbgfccnt__M7_4 out vbn2 out1p VSUBS bgfccnt__M7
+Xbgfccnt__DUM_11 VSUBS VSUBS VSUBS VSUBS bgfccnt__DUM
+Xbgfccnt__DUM_22 VSUBS VSUBS VSUBS VSUBS bgfccnt__DUM
+Xbgfccnt__MB4_2 vbn2 vbn2 vbn1 VSUBS bgfccnt__MB4
+Xbgfccnt__M7_5 out1p vbn2 out VSUBS bgfccnt__M7
+Xbgfccnt__DUM_12 VSUBS VSUBS VSUBS VSUBS bgfccnt__DUM
+Xbgfccnt__DUM_23 VSUBS VSUBS VSUBS VSUBS bgfccnt__DUM
+Xbgfccnt__MB4_3 vbn2 vbn2 vbn1 VSUBS bgfccnt__MB4
+Xbgfccnt__M7_6 out1p vbn2 out VSUBS bgfccnt__M7
+Xbgfccnt__DUM_13 VSUBS VSUBS VSUBS VSUBS bgfccnt__DUM
+Xbgfccnt__DUM_24 VSUBS VSUBS VSUBS VSUBS bgfccnt__DUM
+Xbgfccnt__M7_7 out vbn2 out1p VSUBS bgfccnt__M7
+Xbgfccnt__DUM_14 VSUBS VSUBS VSUBS VSUBS bgfccnt__DUM
+Xbgfccnt__DUM_25 VSUBS VSUBS VSUBS VSUBS bgfccnt__DUM
+Xbgfccnt__DUM_26 VSUBS VSUBS VSUBS VSUBS bgfccnt__DUM
+Xbgfccnt__DUM_15 vbn2 vbn2 vbn2 VSUBS bgfccnt__DUM
+Xbgfccnt__DUM_16 VSUBS VSUBS VSUBS VSUBS bgfccnt__DUM
+Xbgfccnt__DUM_27 VSUBS VSUBS VSUBS VSUBS bgfccnt__DUM
+Xbgfccnt__DUM_17 VSUBS VSUBS VSUBS VSUBS bgfccnt__DUM
+Xbgfccnt__DUM_18 VSUBS VSUBS VSUBS VSUBS bgfccnt__DUM
+Xbgfccnt__DUM_19 vbn2 vbn2 vbn2 VSUBS bgfccnt__DUM
+.ends
+
+.subckt bgfcdpp__M3 w_n194_n498# a_100_n436# a_n158_n436# a_n100_n462#
+X0 a_100_n436# a_n100_n462# a_n158_n436# w_n194_n498# sky130_fd_pr__pfet_01v8_lvt ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=1
+.ends
+
+.subckt bgfcdpp__M2 w_n194_n498# a_100_n436# a_n158_n436# a_n100_n462#
+X0 a_100_n436# a_n100_n462# a_n158_n436# w_n194_n498# sky130_fd_pr__pfet_01v8_lvt ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=1
+.ends
+
+.subckt bgfcdpp__DUM w_n194_n498# a_100_n436# a_n158_n436# a_n100_n462#
+X0 a_100_n436# a_n100_n462# a_n158_n436# w_n194_n498# sky130_fd_pr__pfet_01v8_lvt ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=1
+.ends
+
+.subckt bgfc__diffpair_p inp inn diff out1p out1n vdd
+Xbgfcdpp__M3_0 vdd diff out1p inn bgfcdpp__M3
+Xbgfcdpp__M3_1 vdd out1p diff inn bgfcdpp__M3
+Xbgfcdpp__M3_2 vdd diff out1p inn bgfcdpp__M3
+Xbgfcdpp__M3_3 vdd out1p diff inn bgfcdpp__M3
+Xbgfcdpp__M3_4 vdd diff out1p inn bgfcdpp__M3
+Xbgfcdpp__M3_5 vdd out1p diff inn bgfcdpp__M3
+Xbgfcdpp__M3_6 vdd diff out1p inn bgfcdpp__M3
+Xbgfcdpp__M3_7 vdd out1p diff inn bgfcdpp__M3
+Xbgfcdpp__M2_0 vdd diff out1n inp bgfcdpp__M2
+Xbgfcdpp__M2_1 vdd out1n diff inp bgfcdpp__M2
+Xbgfcdpp__M2_2 vdd diff out1n inp bgfcdpp__M2
+Xbgfcdpp__M2_3 vdd out1n diff inp bgfcdpp__M2
+Xbgfcdpp__M2_4 vdd diff out1n inp bgfcdpp__M2
+Xbgfcdpp__M2_5 vdd out1n diff inp bgfcdpp__M2
+Xbgfcdpp__M2_6 vdd out1n diff inp bgfcdpp__M2
+Xbgfcdpp__M2_7 vdd diff out1n inp bgfcdpp__M2
+Xbgfcdpp__DUM_0 vdd diff diff diff bgfcdpp__DUM
+Xbgfcdpp__DUM_1 vdd diff diff diff bgfcdpp__DUM
+Xbgfcdpp__DUM_2 vdd diff diff diff bgfcdpp__DUM
+Xbgfcdpp__DUM_3 vdd diff diff diff bgfcdpp__DUM
+.ends
+
+.subckt bgfccpb__M8 a_n458_n236# a_n400_n262# w_n494_n298# a_400_n236#
+X0 a_400_n236# a_n400_n262# a_n458_n236# w_n494_n298# sky130_fd_pr__pfet_01v8_lvt ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=4
+.ends
+
+.subckt bgfccpb__M9 a_n458_n236# a_n400_n262# w_n494_n298# a_400_n236#
+X0 a_400_n236# a_n400_n262# a_n458_n236# w_n494_n298# sky130_fd_pr__pfet_01v8_lvt ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=4
+.ends
+
+.subckt bgfccpb__DUM a_n458_n236# a_n400_n262# w_n494_n298# a_400_n236#
+X0 a_400_n236# a_n400_n262# a_n458_n236# w_n494_n298# sky130_fd_pr__pfet_01v8_lvt ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=4
+.ends
+
+.subckt bgfccpb__MB1 a_n458_n236# a_n400_n262# w_n494_n298# a_400_n236#
+X0 a_400_n236# a_n400_n262# a_n458_n236# w_n494_n298# sky130_fd_pr__pfet_01v8_lvt ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=4
+.ends
+
+.subckt bgfc__casp_bot out nd11 nd10 mirr bias vbp1 m1_458_17#
+Xbgfccpb__M8_0 mirr bias m1_458_17# nd10 bgfccpb__M8
+Xbgfccpb__M8_1 nd10 bias m1_458_17# mirr bgfccpb__M8
+Xbgfccpb__M8_2 mirr bias m1_458_17# nd10 bgfccpb__M8
+Xbgfccpb__M8_3 nd10 bias m1_458_17# mirr bgfccpb__M8
+Xbgfccpb__M8_4 nd10 bias m1_458_17# mirr bgfccpb__M8
+Xbgfccpb__M8_5 mirr bias m1_458_17# nd10 bgfccpb__M8
+Xbgfccpb__M8_6 nd10 bias m1_458_17# mirr bgfccpb__M8
+Xbgfccpb__M8_7 mirr bias m1_458_17# nd10 bgfccpb__M8
+Xbgfccpb__M9_0 out bias m1_458_17# nd11 bgfccpb__M9
+Xbgfccpb__M9_1 nd11 bias m1_458_17# out bgfccpb__M9
+Xbgfccpb__DUM_0 bias bias m1_458_17# bias bgfccpb__DUM
+Xbgfccpb__M9_2 nd11 bias m1_458_17# out bgfccpb__M9
+Xbgfccpb__MB1_0 vbp1 bias m1_458_17# bias bgfccpb__MB1
+Xbgfccpb__M9_3 out bias m1_458_17# nd11 bgfccpb__M9
+Xbgfccpb__DUM_1 m1_458_17# m1_458_17# m1_458_17# m1_458_17# bgfccpb__DUM
+Xbgfccpb__MB1_1 vbp1 bias m1_458_17# bias bgfccpb__MB1
+Xbgfccpb__DUM_2 m1_458_17# m1_458_17# m1_458_17# m1_458_17# bgfccpb__DUM
+Xbgfccpb__M9_4 nd11 bias m1_458_17# out bgfccpb__M9
+Xbgfccpb__MB1_2 bias bias m1_458_17# vbp1 bgfccpb__MB1
+Xbgfccpb__M9_5 out bias m1_458_17# nd11 bgfccpb__M9
+Xbgfccpb__DUM_3 m1_458_17# m1_458_17# m1_458_17# m1_458_17# bgfccpb__DUM
+Xbgfccpb__DUM_20 m1_458_17# m1_458_17# m1_458_17# m1_458_17# bgfccpb__DUM
+Xbgfccpb__MB1_3 bias bias m1_458_17# vbp1 bgfccpb__MB1
+Xbgfccpb__DUM_4 m1_458_17# m1_458_17# m1_458_17# m1_458_17# bgfccpb__DUM
+Xbgfccpb__M9_6 nd11 bias m1_458_17# out bgfccpb__M9
+Xbgfccpb__DUM_21 m1_458_17# m1_458_17# m1_458_17# m1_458_17# bgfccpb__DUM
+Xbgfccpb__DUM_10 m1_458_17# m1_458_17# m1_458_17# m1_458_17# bgfccpb__DUM
+Xbgfccpb__M9_7 out bias m1_458_17# nd11 bgfccpb__M9
+Xbgfccpb__DUM_5 m1_458_17# m1_458_17# m1_458_17# m1_458_17# bgfccpb__DUM
+Xbgfccpb__DUM_22 m1_458_17# m1_458_17# m1_458_17# m1_458_17# bgfccpb__DUM
+Xbgfccpb__DUM_11 m1_458_17# m1_458_17# m1_458_17# m1_458_17# bgfccpb__DUM
+Xbgfccpb__DUM_6 m1_458_17# m1_458_17# m1_458_17# m1_458_17# bgfccpb__DUM
+Xbgfccpb__DUM_23 m1_458_17# m1_458_17# m1_458_17# m1_458_17# bgfccpb__DUM
+Xbgfccpb__DUM_12 bias bias m1_458_17# bias bgfccpb__DUM
+Xbgfccpb__DUM_7 m1_458_17# m1_458_17# m1_458_17# m1_458_17# bgfccpb__DUM
+Xbgfccpb__DUM_24 m1_458_17# m1_458_17# m1_458_17# m1_458_17# bgfccpb__DUM
+Xbgfccpb__DUM_13 m1_458_17# m1_458_17# m1_458_17# m1_458_17# bgfccpb__DUM
+Xbgfccpb__DUM_8 m1_458_17# m1_458_17# m1_458_17# m1_458_17# bgfccpb__DUM
+Xbgfccpb__DUM_14 m1_458_17# m1_458_17# m1_458_17# m1_458_17# bgfccpb__DUM
+Xbgfccpb__DUM_25 bias bias m1_458_17# bias bgfccpb__DUM
+Xbgfccpb__DUM_9 m1_458_17# m1_458_17# m1_458_17# m1_458_17# bgfccpb__DUM
+Xbgfccpb__DUM_26 m1_458_17# m1_458_17# m1_458_17# m1_458_17# bgfccpb__DUM
+Xbgfccpb__DUM_15 m1_458_17# m1_458_17# m1_458_17# m1_458_17# bgfccpb__DUM
+Xbgfccpb__DUM_16 bias bias m1_458_17# bias bgfccpb__DUM
+Xbgfccpb__DUM_27 m1_458_17# m1_458_17# m1_458_17# m1_458_17# bgfccpb__DUM
+Xbgfccpb__DUM_17 m1_458_17# m1_458_17# m1_458_17# m1_458_17# bgfccpb__DUM
+Xbgfccpb__DUM_18 m1_458_17# m1_458_17# m1_458_17# m1_458_17# bgfccpb__DUM
+Xbgfccpb__DUM_19 m1_458_17# m1_458_17# m1_458_17# m1_458_17# bgfccpb__DUM
+.ends
+
+.subckt bg__se_folded_cascode_p vbn1 vbp1 diff out1p out1n mirr vbn2 nd10 nd11 out
++ vdd bias vsub inp inn vss
+Xbgfc__pmirr_0 vbp1 diff vbn2 vdd bgfc__pmirr
+Xbgfc__nmirr_0 vbn1 out1n out1p vss bgfc__nmirr
+Xbgfc__casp_top_0 vdd nd11 nd10 mirr vdd bgfc__casp_top
+Xbgfc__casn_top_0 vbn2 vbn1 out mirr out1n out1p vss bgfc__casn_top
+Xbgfc__diffpair_p_0 inp inn diff out1p out1n vdd bgfc__diffpair_p
+Xbgfc__casp_bot_0 out nd11 nd10 mirr bias vbp1 vdd bgfc__casp_bot
+.ends
+
+.subckt bandgap_cw vbg trim[15] trim[13] trim[11] trim[9] trim[7] trim[5] trim[3]
++ trim[1] trim[0] trim[2] trim[4] trim[6] trim[8] trim[10] trim[12] trim[14] bias
++ vdd vsub vss
+Xbg__cap_3 bg__se_folded_cascode_p_0/out vss bg__cap
+Xbg__cap_4 bg__se_folded_cascode_p_0/out vss bg__cap
+Xbg__res_0 m1_32787_8825# m1_32015_12378# m1_35489_12378# m1_30085_12378# m1_33559_12378#
++ m1_30857_8825# m1_35103_12378# m1_31243_9043# m1_30085_12378# m1_29699_9043# m1_29699_9043#
++ m2_32390_12378# m1_35103_12378# m1_28541_12378# m1_34717_9043# m1_30471_12378# m1_31629_12378#
++ m1_34717_9043# m1_33977_7455# m1_28927_12378# bg__se_folded_cascode_p_0/inp m1_32787_8825#
++ m1_33173_9043# m1_33559_12378# m1_34331_8825# m1_33945_12378# m1_29313_8825# bg__se_folded_cascode_p_0/inp
++ m1_31629_12378# m1_35489_12378# bg__pnp_group_0/eu m1_30471_12378# m1_32015_12378#
++ m1_33945_12378# m1_34331_8825# m1_28927_12378# m1_31243_9043# vbg m1_30857_8825#
++ m1_28541_12378# m1_29313_8825# vss m1_33173_9043# bg__res
+Xbg__cap_5 bg__se_folded_cascode_p_0/out vss bg__cap
+Xbg__cap_6 bg__se_folded_cascode_p_0/out vss bg__cap
+Xbg__cap_7 bg__se_folded_cascode_p_0/out vss bg__cap
+Xbg__cap_8 m4_36893_6523# vss bg__cap
+Xbg__trim_0 trim[7] trim[10] trim[8] trim[1] bg__pnp_group_0/eg trim[14] trim[6] trim[5]
++ trim[4] bg__pnp_group_0/eg bg__pnp_group_0/eg trim[11] trim[15] trim[2] m2_32390_12378#
++ trim[9] trim[3] trim[12] trim[0] vss trim[13] bg__trim
+Xbg__cap_9 m4_36893_6523# vss bg__cap
+Xbg__startup_0 vbg vss vss vdd vdd vdd m4_36893_6523# m4_36893_6523# bg__se_folded_cascode_p_0/out
++ vss bg__startup
+Xbg__M1_M2_0 vbg bg__se_folded_cascode_p_0/out vdd m1_33977_7455# bg__se_folded_cascode_p_0/out
++ vdd vdd bg__se_folded_cascode_p_0/out vdd bg__se_folded_cascode_p_0/out bg__M1_M2
+Xbg__pnp_group_0 vss bg__pnp_group_0/eg bg__pnp_group_0/eu vdd bg__pnp_group
+Xbg__cap_10 m4_36893_6523# vss bg__cap
+Xbg__se_folded_cascode_p_0 bg__se_folded_cascode_p_0/vbn1 bg__se_folded_cascode_p_0/vbp1
++ bg__se_folded_cascode_p_0/diff bg__se_folded_cascode_p_0/out1p bg__se_folded_cascode_p_0/out1n
++ bg__se_folded_cascode_p_0/mirr bg__se_folded_cascode_p_0/vbn2 bg__se_folded_cascode_p_0/nd10
++ bg__se_folded_cascode_p_0/nd11 bg__se_folded_cascode_p_0/out vdd bias vsub bg__se_folded_cascode_p_0/inp
++ bg__pnp_group_0/eu vss bg__se_folded_cascode_p
+Xbg__cap_0 bg__se_folded_cascode_p_0/out vss bg__cap
+Xbg__cap_1 bg__se_folded_cascode_p_0/out vss bg__cap
+Xbg__cap_2 bg__se_folded_cascode_p_0/out vss bg__cap
+.ends
+
+.subckt sky130_cw_ip__bandgap_nobias vbg vss vdd trim[0] trim[4] trim[6] trim[8] trim[10]
++ trim[12] trim[14] trim[15] trim[13] trim[11] trim[9] trim[7] trim[5] trim[3] trim[1]
++ trim[2] vsub bias
+Xbandgap_cw_0 vbg trim[15] trim[13] trim[11] trim[9] trim[7] trim[5] trim[3] trim[1]
++ trim[0] trim[2] trim[4] trim[6] trim[8] trim[10] trim[12] trim[14] bias vdd vsub
++ vss bandgap_cw
+.ends
+
